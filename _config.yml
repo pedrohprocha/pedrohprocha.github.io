@@ -1,0 +1,22 @@
+title: "Pedro H. P. Rocha"
+description: "Ph.D. Student | Media & Communication"
+email: "your.email@institution.edu"
+url: "https://yourusername.github.io"
+baseurl: ""
+
+author:
+  name: Pedro H. P. Rocha
+  affiliation: "[Your Department], [Your University]"
+
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
