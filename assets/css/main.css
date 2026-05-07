@@ -55,7 +55,7 @@
     --bg: #d8eaf0;
     --text: #0e1e28;
     --muted: #4a6e7a;
-    --accent: #0a8a50;
+    --accent: #d4601a;
     --border: #90b8cc;
     --nav: #1a6a9a;
     --font-body: "Minion Pro", Georgia, serif;
@@ -87,7 +87,7 @@ a {
     text-underline-offset: 2px;
 }
 a:hover {
-    color: #d4601a;
+    color: #0faa62;
     text-decoration: none;
 }
 
