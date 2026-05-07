@@ -441,7 +441,6 @@ h3 {
     .sidebar {
         width: 100%;
         min-width: unset;
-        border-right: none;
         border-bottom: 1px solid var(--border);
         padding: 2rem 0 1.5rem;
     }
