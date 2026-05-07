@@ -283,7 +283,7 @@ h3 {
 
 .sidebar-inner {
     position: sticky;
-    top: 3rem;
+    top: 0;
 }
 
 .tagline {
