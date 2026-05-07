@@ -13,4 +13,4 @@ Before coming to Tech, I received a master's degree in the [Department of Social
 
 ---
 
-[Google Scholar](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en&inst=6726858233868544323) &middot; [CV]({{ '/cv' | relative_url }}) &middot; [Contact]({{ '/contact' | relative_url }})
+[Google Scholar](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en&inst=6726858233868544323) &middot; [ORCID](https://orcid.org/0000-0002-2762-9891) &middot; [Lattes](http://lattes.cnpq.br/8720377365114820)
