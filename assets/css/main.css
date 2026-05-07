@@ -233,12 +233,24 @@ a:hover {
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     html {
-        font-size: 16px;
+        font-size: 15px;
+    }
+    body {
+        padding: 0 1.25rem;
     }
     nav a {
-        margin-right: 1rem;
+        margin-right: 0.9rem;
+    }
+}
+
+@media (max-width: 400px) {
+    html {
+        font-size: 14px;
+    }
+    body {
+        padding: 0 1rem;
     }
 }
 
