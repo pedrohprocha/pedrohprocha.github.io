@@ -22,6 +22,33 @@
     font-weight: 700;
     font-style: italic;
 }
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url("/assets/fonts/CooperHewitt-Book.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url("/assets/fonts/CooperHewitt-BookItalic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url("/assets/fonts/CooperHewitt-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Cooper Hewitt";
+    src: url("/assets/fonts/CooperHewitt-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
@@ -31,7 +58,7 @@
     --border: #c8c4b8;
     --bg: #e8e4dc;
     --font-body: "Minion Pro", Georgia, serif;
-    --font-heading: "Minion Pro", Georgia, serif;
+    --font-heading: "Cooper Hewitt", sans-serif;
     --sidebar-w: 200px;
 }
 
