@@ -33,7 +33,7 @@
     --accent: #c2a83e;
     --border: #e0eec6;
     --bg: #f1f7ed;
-    --max-width: 680px;
+    --max-width: 620px;
     --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-mono: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-heading: "Minion Pro", Georgia, serif;
@@ -49,14 +49,14 @@
 }
 
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 body {
     font-family: var(--font-body);
     background: var(--bg);
     color: var(--text);
-    line-height: 1.7;
+    line-height: 1.35;
     padding: 0 1.5rem;
 }
 
