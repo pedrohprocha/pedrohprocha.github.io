@@ -1,6 +1,6 @@
 ---
 layout: default
-title: THOUGHTS
+title: Thoughts
 permalink: /blog/
 ---
 
