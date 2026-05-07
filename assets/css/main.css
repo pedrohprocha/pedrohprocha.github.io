@@ -59,6 +59,10 @@ body {
     padding: 0 1.5rem;
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
 /* ── Layout ─────────────────────────────────────────────── */
 .site-wrapper {
     display: flex;
