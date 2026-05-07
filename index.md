@@ -1,6 +1,6 @@
 ---
 layout: default
-title: About
+title: Home | Pedro H. P. Rocha
 ---
 
 Hi! I'm a [Ph.D. candidate and Fulbright scholar](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University. I'm also a part-time instructor at CoMC, and teach courses about business and professional communication.
@@ -13,11 +13,4 @@ Before coming to Tech, I received a master's degree in the [Department of Social
 
 ---
 
-**Affiliation**
-
-Doctoral Program at the College of Media & Communication
-Texas Tech University
-Lubbock, TX
-
-**Links**
 [Google Scholar](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en&inst=6726858233868544323) &middot; [CV]({{ '/cv' | relative_url }}) &middot; [Contact]({{ '/contact' | relative_url }})

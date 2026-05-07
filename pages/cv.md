@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CV
+title: CV | Pedro H. P. Rocha
 permalink: /cv/
 ---
 

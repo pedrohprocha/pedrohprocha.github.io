@@ -33,10 +33,9 @@
     --accent: #c2a83e;
     --border: #f1f7ed;
     --bg: #e0eec6;
-    --max-width: 620px;
     --font-body: "Minion Pro", Georgia, serif;
     --font-mono: "Minion Pro", Georgia, serif;
-    --font-heading: "Helvetica", Arial, sans-serif;
+    --font-heading: "Minion Pro", Georgia, serif;
 }
 
 /* ── Reset & Base ────────────────────────────────────────── */
@@ -60,39 +59,55 @@ body {
     padding: 0 1.5rem;
 }
 
-/* ── Layout ──────────────────────────────────────────────── */
+/* ── Layout ─────────────────────────────────────────────── */
 .site-wrapper {
-    max-width: var(--max-width);
+    display: flex;
+    min-height: 100vh;
+    max-width: 900px;
     margin: 0 auto;
 }
 
-/* ── Header ──────────────────────────────────────────────── */
-.site-header {
-    padding: 3rem 0 2rem;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 2.5rem;
+/* ── Sidebar ─────────────────────────────────────────────── */
+.sidebar {
+    width: 200px;
+    min-width: 200px;
+    padding: 3rem 2rem 3rem 0;
+    border-right: 1px solid var(--border);
 }
 
-.site-header h1 {
-    font-size: 1.6rem;
+.sidebar-inner {
+    position: sticky;
+    top: 3rem;
+}
+
+.sidebar h1 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
     font-weight: 500;
-    letter-spacing: 0.01em;
+    line-height: 1.3;
 }
 
-.site-header h1 a {
+.sidebar h1 a {
     color: var(--text);
     text-decoration: none;
 }
 
-.site-header p.tagline {
-    font-size: 0.95rem;
+.sidebar h1 a:hover {
+    color: var(--accent);
+}
+
+.sidebar .tagline {
+    font-size: 0.85rem;
     color: var(--muted);
-    margin-top: 0.2rem;
     font-style: italic;
+    margin-top: 0.3rem;
+    margin-bottom: 1.5rem;
 }
 
 nav {
-    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
 }
 
 nav a {
@@ -102,7 +117,6 @@ nav a {
     letter-spacing: 0.08em;
     color: var(--muted);
     text-decoration: none;
-    margin-right: 1.5rem;
 }
 
 nav a:hover,
@@ -111,37 +125,21 @@ nav a.active {
 }
 
 /* ── Main Content ────────────────────────────────────────── */
-main {
-    padding-bottom: 4rem;
+.main-content {
+    flex: 1;
+    padding: 3rem 0 4rem 3rem;
+    min-width: 0;
 }
 
-h2 {
-    font-family: var(--font-heading);
-    font-size: 1.1rem;
-    font-weight: 500;
-    margin: 2rem 0 0.8rem;
-    letter-spacing: 0.01em;
-}
-
-h3 {
-    font-family: var(--font-heading);
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 1.5rem 0 0.4rem;
-}
-
-p {
-    margin-bottom: 1rem;
-}
-
-a {
-    color: var(--accent);
-    text-decoration: underline;
-    text-underline-offset: 2px;
-}
-
-a:hover {
-    text-decoration: none;
+/* ── Footer ──────────────────────────────────────────────── */
+.site-footer {
+    border-top: 1px solid var(--border);
+    padding: 1.5rem 0;
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--muted);
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 /* ── Publication / Entry List ────────────────────────────── */
@@ -223,25 +221,36 @@ a:hover {
     margin-bottom: 1.1rem;
 }
 
-/* ── Footer ──────────────────────────────────────────────── */
-.site-footer {
-    border-top: 1px solid var(--border);
-    padding: 1.5rem 0;
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
-    color: var(--muted);
-}
-
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 640px) {
     html {
         font-size: 15px;
     }
-    body {
-        padding: 0 1.25rem;
+
+    .site-wrapper {
+        flex-direction: column;
     }
-    nav a {
-        margin-right: 0.9rem;
+
+    .sidebar {
+        width: 100%;
+        min-width: unset;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding: 2rem 1.25rem 1.5rem;
+    }
+
+    .sidebar-inner {
+        position: static;
+    }
+
+    nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+    }
+
+    .main-content {
+        padding: 2rem 1.25rem 3rem;
     }
 }
 
@@ -249,8 +258,11 @@ a:hover {
     html {
         font-size: 14px;
     }
-    body {
-        padding: 0 1rem;
+    .sidebar {
+        padding: 1.5rem 1rem;
+    }
+    .main-content {
+        padding: 1.5rem 1rem 3rem;
     }
 }
 
