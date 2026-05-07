@@ -59,7 +59,7 @@
     --bg: #e8e4dc;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Cooper Hewitt", sans-serif;
-    --sidebar-w: 22%;
+    --sidebar-w: 30%;
 }
 
 /* ── Reset ───────────────────────────────────────────────── */
@@ -349,7 +349,7 @@ h3 {
 
 .main-content {
     flex: 1;
-    padding: 3rem 0 4rem 3rem;
+    padding: 3rem 0 1.5rem 3rem;
     min-width: 0;
 }
 
