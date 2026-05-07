@@ -225,6 +225,16 @@ nav a.active {
     margin-bottom: 1.1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --text: #e8e4dc;
+        --muted: #a8a89c;
+        --accent: #8faa86;
+        --border: #4a4a44;
+        --bg: #1e1e1a;
+    }
+}
+
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 640px) {
     html {
