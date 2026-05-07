@@ -298,7 +298,7 @@ h3 {
     color: var(--muted);
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .headshot-sm {
@@ -328,8 +328,9 @@ h3 {
 .sidebar nav {
     display: flex;
     flex-direction: column;
-    gap: 0.9rem;
+    gap: 1.2rem;
 }
+
 .sidebar nav a {
     font-size: 0.8rem;
     text-transform: uppercase;
