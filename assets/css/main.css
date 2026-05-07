@@ -59,7 +59,7 @@
     --bg: #e8e4dc;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Cooper Hewitt", sans-serif;
-    --sidebar-w: 200px;
+    --sidebar-w: 22%;
 }
 
 /* ── Reset ───────────────────────────────────────────────── */
@@ -275,13 +275,15 @@ h3 {
 .site-wrapper {
     display: flex;
     max-width: 900px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 1.5rem;
 }
 
 .sidebar {
     width: var(--sidebar-w);
-    min-width: var(--sidebar-w);
+    min-width: 160px;
+    max-width: 220px;
     padding: 3rem 2rem 3rem 0;
     border-right: 1px solid var(--border);
 }
