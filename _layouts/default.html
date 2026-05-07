@@ -15,10 +15,10 @@
       <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
       <p class="tagline">{{ site.description }}</p>
       <nav>
-        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>About</a>
+        <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>HOME</a>
         <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' %} class="active"{% endif %}>CV</a>
-        <a href="{{ '/teaching' | relative_url }}"{% if page.url contains 'teaching' %} class="active"{% endif %}>Teaching</a>
-        <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' or page.layout == 'post' %} class="active"{% endif %}>Blog</a>
+        <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
+        <a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' or page.layout == 'post' %} class="active"{% endif %}>THOUGHTS</a>
         <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>Contact</a>
       </nav>
     </header>
@@ -28,7 +28,7 @@
     </main>
 
     <footer class="site-footer">
-      <p>Pedro H. P. Rocha &middot; {{ site.email }}</p>
+      <p>PEDRO H. P. ROCHA &middot; {{ site.email }}</p>
     </footer>
   </div>
 </body>
