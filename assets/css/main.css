@@ -290,6 +290,14 @@ h3 {
     top: 3rem;
 }
 
+.tagline {
+    font-size: 0.85rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.1rem;
+    margin-bottom: 1.2rem;
+}
+
 .headshot-sm {
     width: 120px;
     height: 120px;
@@ -302,7 +310,7 @@ h3 {
 .sidebar h1 {
     font-family: var(--font-heading);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 700;
     line-height: 1.4;
     margin-bottom: 1.2rem;
 }
@@ -473,6 +481,7 @@ h3 {
 .pub-title {
     font-family: var(--font-heading);
     font-size: 1rem;
+    font-weight: 500;
     margin-bottom: 0.2rem;
     line-height: 1.4;
 }
