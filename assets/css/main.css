@@ -29,10 +29,10 @@
 /* ── Variables ───────────────────────────────────────────── */
 :root {
     --text: #243e36;
-    --muted: #7ca982;
+    --muted: #f1f7ed;
     --accent: #c2a83e;
     --border: #e0eec6;
-    --bg: #f1f7ed;
+    --bg: #7ca982;
     --max-width: 620px;
     --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-mono: "Helvetica Neue", Helvetica, Arial, sans-serif;
