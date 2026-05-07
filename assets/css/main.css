@@ -278,6 +278,8 @@ h3 {
     width: 100%;
     margin: 0 auto;
     padding: 0 1.5rem;
+    min-height: 100vh;
+    align-items: center;
 }
 
 .sidebar {
@@ -328,7 +330,7 @@ h3 {
 .sidebar nav {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem;
+    gap: 1.6rem;
 }
 
 .sidebar nav a {
@@ -337,7 +339,9 @@ h3 {
     letter-spacing: 0.07em;
     color: var(--muted);
     text-decoration: none;
+    font-weight: 700;
 }
+
 .sidebar nav a:hover,
 .sidebar nav a.active {
     color: var(--accent);
