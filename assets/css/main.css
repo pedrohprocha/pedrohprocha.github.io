@@ -54,8 +54,8 @@
 :root {
     --bg: #e8ede4;
     --text: #0e1e28;
-    --muted: #4a6e7a;
-    --accent: #d4601a;
+    --muted: #a07820;
+    --accent: #c0472a;
     --border: #d4900a;
     --nav: #1a6a9a;
     --font-body: "Minion Pro", Georgia, serif;
@@ -501,13 +501,13 @@ h3 {
 }
 
 .pub-title a {
-    color: var(--text);
+    color: var(--accent);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
 .pub-title a:hover {
-    color: var(--accent);
+    color: #0faa62;
 }
 
 .pub-authors {
