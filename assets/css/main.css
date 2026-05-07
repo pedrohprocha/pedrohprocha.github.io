@@ -294,7 +294,7 @@ h3 {
     font-size: 0.85rem;
     color: var(--muted);
     font-style: italic;
-    margin-top: 0.1rem;
+    margin-top: 0;
     margin-bottom: 1.2rem;
 }
 
@@ -312,7 +312,7 @@ h3 {
     font-size: 1rem;
     font-weight: 700;
     line-height: 1.4;
-    margin-bottom: 1.2rem;
+    margin-bottom: 0.2rem;
 }
 .sidebar h1 a {
     color: var(--text);
