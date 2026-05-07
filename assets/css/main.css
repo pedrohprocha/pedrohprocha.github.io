@@ -128,6 +128,15 @@ nav a.active {
     color: var(--accent);
 }
 
+.headshot-sm {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
 /* ── Main Content ────────────────────────────────────────── */
 .main-content {
     flex: 1;
