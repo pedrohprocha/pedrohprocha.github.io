@@ -28,11 +28,11 @@
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --text: #243e36;
-    --muted: #7ca982;
-    --accent: #c2a83e;
-    --border: #f1f7ed;
-    --bg: #e0eec6;
+    --text: #2b2b27;
+    --muted: #7a7a6e;
+    --accent: #4a6741;
+    --border: #c8c4b8;
+    --bg: #e8e4dc;
     --font-body: "Minion Pro", Georgia, serif;
     --font-mono: "Minion Pro", Georgia, serif;
     --font-heading: "Minion Pro", Georgia, serif;
