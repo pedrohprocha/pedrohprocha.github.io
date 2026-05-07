@@ -4,12 +4,4 @@ title: Contact
 permalink: /contact/
 ---
 
-**Email:** [your.email@institution.edu](mailto:your.email@institution.edu)
-
-**Office:** [Building and room number, if applicable]
-[Department]
-[University]
-[City, State, ZIP]
-
-**Mail:**
-[Mailing address, if applicable]
+My institutional email is [pedrocha@ttu.edu](mailto:pedrocha@ttu.edu). You can also contact me at [research@pedrocha.com](mailto:research@pedrocha.com).
