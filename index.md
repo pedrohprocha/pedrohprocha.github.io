@@ -9,8 +9,6 @@ I'm interested in the dynamics of communication in everyday politics, and I'm cu
 
 Before coming to Tech, I received an M.A. and a B.A. from the [Department of Social Communication](http://www.ppgcom.fafich.ufmg.br/index.php) at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/) in Belo Horizonte, Brazil. While there, I conducted research at the [Research Group in Image and Sociability](https://www.fafich.ufmg.br/gris/) and the [Research Group in Media and Public Sphere](https://grupoemeblog.wordpress.com/).
 
----
-
 ## Recent Publications
 
 <div class="pub-list-home">
