@@ -334,6 +334,7 @@ h3 {
 
 .sidebar nav a {
     font-size: 0.95rem;
+    font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--muted);
