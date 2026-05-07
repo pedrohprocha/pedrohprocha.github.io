@@ -333,7 +333,7 @@ h3 {
 }
 
 .sidebar nav a {
-    font-size: 0.8rem;
+    font-size: 0.95rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--muted);
