@@ -1,13 +1,42 @@
+@font-face {
+    font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-It.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-BoldIt.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
+
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --text: #1a1a1a;
-    --muted: #666;
-    --accent: #8b0000;
-    --border: #ddd;
-    --bg: #faf9f7;
+    --text: #243e36;
+    --muted: #7ca982;
+    --accent: #c2a83e;
+    --border: #e0eec6;
+    --bg: #f1f7ed;
     --max-width: 680px;
-    --font-body: Helvetica, Arial, sans-serif;
-    --font-mono: Helvetica, Arial, sans-serif;
+    --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-mono: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-heading: "Minion Pro", Georgia, serif;
 }
 
 /* ── Reset & Base ────────────────────────────────────────── */
@@ -87,6 +116,7 @@ main {
 }
 
 h2 {
+    font-family: var(--font-heading);
     font-size: 1.1rem;
     font-weight: 500;
     margin: 2rem 0 0.8rem;
@@ -94,6 +124,7 @@ h2 {
 }
 
 h3 {
+    font-family: var(--font-heading);
     font-size: 1rem;
     font-weight: 500;
     margin: 1.5rem 0 0.4rem;
@@ -209,4 +240,8 @@ a:hover {
     nav a {
         margin-right: 1rem;
     }
+}
+
+.site-header h1 {
+    font-family: var(--font-heading);
 }
