@@ -233,6 +233,7 @@ h3 {
 .pub-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .pub-title {
@@ -476,6 +477,7 @@ h3 {
 .pub-item:last-child {
     border-bottom: none;
     padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .pub-title {
