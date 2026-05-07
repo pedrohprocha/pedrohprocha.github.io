@@ -296,8 +296,9 @@ h3 {
 }
 
 .headshot-sm {
-    width: 155px;
-    height: 155px;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 12px;
     display: block;
