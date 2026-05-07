@@ -24,8 +24,6 @@ Before coming to Tech, I received a master's degree in the [Department of Social
   <p class="pub-authors">{{ pub.authors }}</p>
   <p class="pub-venue">{{ pub.venue }}</p>
   <div class="pub-links">
-    {% if pub.doi %}<a href="{{ pub.doi }}">DOI</a>{% endif %}
-    {% if pub.pdf %}<a href="{{ pub.pdf }}">PDF</a>{% endif %}
   </div>
 </div>
 {% endfor %}
