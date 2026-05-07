@@ -4,6 +4,8 @@ title: Research
 permalink: /research/
 ---
 
+My Google Scholar profile is accessible [here](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en).
+
 ### Peer-reviewed papers
 
 1. ["A Waste of Time? Partisan Deliberative Bias as a Barrier to Political Crosstalk,"](https://doi.org/10.1007/s11109-025-10068-w) with Bryan McLaughlin and Nathaniel Geiger. Political Behavior, 2025.
