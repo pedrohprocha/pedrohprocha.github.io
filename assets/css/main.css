@@ -52,11 +52,12 @@
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --text: #2b2b27;
-    --muted: #7a7a6e;
-    --accent: #4a6741;
-    --border: #c8c4b8;
-    --bg: #e8e4dc;
+    --bg: #f0f0ec;
+    --text: #252a28;
+    --muted: #6b7a72;
+    --accent: #3d6b4a;
+    --border: #c4c8c2;
+    --nav: #3a6b8a;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Cooper Hewitt", sans-serif;
     --sidebar-w: 30%;
@@ -329,7 +330,7 @@ h3 {
     font-family: var(--font-heading);
     text-transform: uppercase;
     letter-spacing: 0.07em;
-    color: var(--muted);
+    color: var(--nav);
     text-decoration: none;
     font-weight: 700;
 }
