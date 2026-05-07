@@ -4,8 +4,10 @@ title: CV
 permalink: /cv/
 ---
 
-A full PDF version of my CV is available [here]({{ '/assets/files/cv.pdf' | relative_url }}).
+The most recent version (Dec 2025) of my CV  is available as a PDF [here]({{ '/assets/files/cv_pedrohprocha_25.pdf' | relative_url }}).
+
+A more comprehensive version is available at the Lattes database from the National Council for Scientific and Technological Development of Brazil. Click [here](http://lattes.cnpq.br/8720377365114820).
+
+My ORCID is [0000-0002-2762-9891](https://orcid.org/0000-0002-2762-9891))
 
 ---
-
-*To upload your CV: save it as `cv.pdf` and place it in the `assets/files/` folder.*
