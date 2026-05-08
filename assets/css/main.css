@@ -112,7 +112,7 @@ h3 {
 /* ══ HOME LAYOUT ════════════════════════════════════════════ */
 .home-wrapper {
     display: flex;
-    max-width: 960px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 3rem 1.5rem 1.5rem;
     gap: 4rem;
