@@ -294,7 +294,7 @@ h3 {
     gap: 0.8rem;
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 2.5rem;
+    margin-top: 1.2rem;
 }
 
 .sidebar-icons a {
@@ -309,11 +309,11 @@ h3 {
 }
 
 .tagline {
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     color: var(--muted);
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 2rem;
+    margin-bottom: 1.2rem;
 }
 
 .headshot-sm {
