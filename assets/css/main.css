@@ -288,6 +288,25 @@ h3 {
     top: 0;
 }
 
+.sidebar-icons {
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.sidebar-icons a {
+    color: var(--muted);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-icons a:hover {
+    color: var(--accent);
+}
+
 .tagline {
     font-size: 0.85rem;
     color: var(--muted);
