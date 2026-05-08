@@ -233,7 +233,9 @@ h3 {
 }
 
 .pub-title {
-    font-family: var(--font-heading);
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-stretch: normal;
     font-size: 1rem;
     margin-bottom: 0.25rem;
 }
@@ -328,9 +330,10 @@ h3 {
 }
 
 .sidebar h1 {
-    font-family: var(--font-heading);
+    font-family: "Futura", sans-serif;
+    font-weight: 800;
+    font-stretch: condensed;
     font-size: 1.3rem;
-    font-weight: 700;
     line-height: 1.4;
     margin-bottom: 0.2rem;
 }
@@ -351,12 +354,13 @@ h3 {
 
 .sidebar nav a {
     font-size: 0.95rem;
-    font-family: var(--font-heading);
+    font-family: "Futura", sans-serif;
+    font-weight: 500;
+    font-stretch: condensed;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--nav);
     text-decoration: none;
-    font-weight: 700;
 }
 
 .sidebar nav a:hover,
