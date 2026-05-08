@@ -54,10 +54,11 @@
 :root {
     --bg: #e8ede4;
     --text: #0e1e28;
-    --muted: #a07820;
-    --accent: #c0472a;
+    --muted: #d4900a;
+    --accent: #1a6a9a;
     --border: #d4900a;
-    --nav: #1a6a9a;
+    --hover: #1e6e5a;
+    --nav: #c0472a;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Cooper Hewitt", sans-serif;
     --sidebar-w: 30%;
@@ -87,7 +88,7 @@ a {
     text-underline-offset: 2px;
 }
 a:hover {
-    color: #0faa62;
+    color: var(--hover);
     text-decoration: none;
 }
 
@@ -262,7 +263,7 @@ h3 {
     border-radius: 2px;
 }
 .pub-links a:hover {
-    background: var(--accent);
+    background: var(--hover);
     color: var(--bg);
 }
 
@@ -520,13 +521,13 @@ h3 {
 }
 
 .pub-title a {
-    color: var(--nav);
+    color: var(--accent);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 
 .pub-title a:hover {
-    color: #0faa62;
+    color: var(--hover);
 }
 
 .pub-authors {
