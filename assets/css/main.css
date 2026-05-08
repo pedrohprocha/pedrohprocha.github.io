@@ -233,7 +233,7 @@ h3 {
 }
 
 .pub-title {
-    font-family: "Futura", sans-serif;
+    font-family: var(--font-heading)
     font-weight: 500;
     font-stretch: normal;
     font-size: 1rem;
@@ -330,7 +330,7 @@ h3 {
 }
 
 .sidebar h1 {
-    font-family: "Futura", sans-serif;
+    font-family: var(--font-heading);
     font-weight: 800;
     font-stretch: condensed;
     font-size: 1.3rem;
@@ -354,7 +354,7 @@ h3 {
 
 .sidebar nav a {
     font-size: 0.95rem;
-    font-family: "Futura", sans-serif;
+    font-family: var(--font-heading);
     font-weight: 500;
     font-stretch: condensed;
     text-transform: uppercase;
