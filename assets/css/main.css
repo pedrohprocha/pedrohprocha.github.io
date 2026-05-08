@@ -54,7 +54,7 @@
 :root {
     --bg: #e8ede4;
     --text: #0e1e28;
-    --muted: #d4900a;
+    --muted: #1e6e5a;
     --accent: #1a6a9a;
     --border: #d4900a;
     --hover: #1e6e5a;
@@ -114,7 +114,7 @@ h3 {
     display: flex;
     max-width: 960px;
     margin: 0 auto;
-    padding: 3rem 1.5rem 4rem;
+    padding: 3rem 1.5rem 1.5rem;
     gap: 3rem;
     align-items: flex-start;
 }
