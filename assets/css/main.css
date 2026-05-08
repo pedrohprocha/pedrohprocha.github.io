@@ -425,7 +425,7 @@ h3 {
 
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
-    padding: 0.5rem 1.5rem 0.2rem;
+    padding: 0 1.5rem 0.2rem;
     font-size: 0.75rem;
     color: var(--muted);
     max-width: 960px;
