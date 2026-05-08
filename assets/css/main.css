@@ -123,6 +123,7 @@ h3 {
 .home-left {
     width: 280px;
     min-width: 280px;
+    padding-top: 0.15rem;
 }
 
 .headshot {
