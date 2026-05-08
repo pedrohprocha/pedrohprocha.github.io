@@ -20,3 +20,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+
+scholar: "https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en&inst=6726858233868544323"
+linkedin: "https://www.linkedin.com/in/pedrohprocha/"
+orcid: "https://orcid.org/0000-0002-2762-9891"
+bluesky: "https://bsky.app/profile/pedrohprocha.bsky.social"
+lattes: "http://lattes.cnpq.br/8720377365114820"
