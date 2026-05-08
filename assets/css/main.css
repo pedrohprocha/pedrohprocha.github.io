@@ -405,12 +405,12 @@ h3 {
 
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
-    border-top: 1px solid var(--border);
     padding: 0.8rem 1.5rem 0.5rem;
     font-size: 0.75rem;
     color: var(--muted);
     max-width: 960px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
