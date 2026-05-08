@@ -238,7 +238,7 @@ h3 {
 }
 
 .pub-authors {
-    color: var(--muted);
+    color: var(--text);
     font-size: 0.82rem;
     margin-bottom: 0.2rem;
 }
@@ -501,7 +501,7 @@ h3 {
 }
 
 .pub-title a {
-    color: var(--accent);
+    color: var(--nav);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
