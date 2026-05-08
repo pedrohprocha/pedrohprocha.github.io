@@ -167,7 +167,7 @@ h3 {
 }
 .home-nav a:hover,
 .home-nav a.active {
-    color: var(--accent);
+    color: var(--hover);
 }
 
 .home-bio {
@@ -202,7 +202,7 @@ h3 {
     align-items: center;
 }
 .home-icons a:hover {
-    color: var(--accent);
+    color: var(--hover);
 }
 
 .lattes-link {
@@ -338,7 +338,7 @@ h3 {
     text-decoration: none;
 }
 .sidebar h1 a:hover {
-    color: var(--accent);
+    color: var(--hover);
 }
 
 .sidebar nav {
@@ -359,7 +359,7 @@ h3 {
 
 .sidebar nav a:hover,
 .sidebar nav a.active {
-    color: var(--accent);
+    color: var(--hover);
 }
 
 .main-content {
