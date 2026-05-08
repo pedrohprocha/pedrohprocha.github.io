@@ -112,10 +112,10 @@ h3 {
 /* ══ HOME LAYOUT ════════════════════════════════════════════ */
 .home-wrapper {
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 3rem 1.5rem 1.5rem;
-    gap: 4rem;
+    gap: 3rem;
     align-items: flex-start;
 }
 
@@ -270,12 +270,12 @@ h3 {
 /* ══ INNER PAGE LAYOUT ══════════════════════════════════════ */
 .site-wrapper {
     display: flex;
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     padding: 2rem 1.5rem;
     align-items: flex-start;
-    gap: 4rem;
+    gap: 3rem;
 }
 
 .sidebar {
