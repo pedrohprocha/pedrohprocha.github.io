@@ -291,10 +291,10 @@ h3 {
 
 .sidebar-icons {
     display: flex;
-    gap: 0.8rem;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     margin-top: 0.6rem;
+    width: 100%;
 }
 
 .sidebar-icons a {
