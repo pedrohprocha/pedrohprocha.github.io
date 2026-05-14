@@ -24,6 +24,7 @@
               {% if site.linkedin %}<a href="{{ site.linkedin }}" title="LinkedIn" target="_blank">{% include icon-linkedin.svg %}</a>{% endif %}
               {% if site.orcid %}<a href="{{ site.orcid }}" title="ORCID" target="_blank">{% include icon-orcid.svg %}</a>{% endif %}
               {% if site.bluesky %}<a href="{{ site.bluesky }}" title="Bluesky" target="_blank">{% include icon-bluesky.svg %}</a>{% endif %}
+              {% if site.researchgate %}<a href="{{ site.researchgate }}" title="ResearchGate" target="_blank">{% include icon-researchgate.svg %}</a>{% endif %}
             </div>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' %} class="active"{% endif %}>CV</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
@@ -36,6 +37,10 @@
     </aside>
 
     <main class="main-content">
+      {% unless page.url == "/" %}
+      <h1 class="chapter-title">{{ page.title }}</h1>
+      <hr class="chapter-rule">
+      {% endunless %}
       {{ content }}
     </main>
   </div>

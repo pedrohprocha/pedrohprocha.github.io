@@ -52,15 +52,17 @@
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --bg:      #fafcfe;
-    --text:    #0e1e2e;
-    --muted:   #2a7a8a;
-    --accent:  #e04a2a;
-    --border:  #e8a030;
-    --hover:   #c03a50;
-    --nav:     #2a7a8a;
+    --bg:         #f8f3e8;
+    --paper:      #faf7f0;
+    --sidebar-bg: #f0e9d8;
+    --text:       #1c1409;
+    --muted:      #5c4c32;
+    --accent:     #2e4d3a;
+    --border:     #d6c9ae;
+    --hover:      #1a3528;
+    --nav:        #5c4c32;
     --font-body: "Minion Pro", Georgia, serif;
-    --font-heading: "Cooper Hewitt", sans-serif;
+    --font-heading: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, sans-serif;
     --sidebar-w: 35%;
 }
 
@@ -277,16 +279,19 @@ h3 {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 2rem 3rem;
-    align-items: flex-start;
-    gap: 1.5rem;
+    padding: 0;
+    align-items: stretch;
+    min-height: 100vh;
+    gap: 0;
 }
 
 .sidebar {
     width: var(--sidebar-w);
     min-width: 160px;
     max-width: 220px;
-    padding: 3rem 2rem 1rem 0;
+    padding: 3rem 1.8rem 2rem 2rem;
+    background: var(--sidebar-bg);
+    border-right: 1px solid var(--border);
 }
 
 .sidebar-inner {
@@ -296,10 +301,9 @@ h3 {
 
 .sidebar-icons {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.8rem;
     margin-top: 0.6rem;
-    width: 100%;
 }
 
 .sidebar-icons a {
@@ -333,12 +337,10 @@ h3 {
 
 .sidebar h1 {
     font-family: var(--font-heading);
-    font-weight: 800;
-    font-stretch: condensed;
-    font-size: 1.3rem;
-    line-height: 1.4;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.3;
     margin-bottom: 0.2rem;
-    white-space: nowrap;
 }
 .sidebar h1 a {
     color: var(--text);
@@ -352,14 +354,13 @@ h3 {
 .sidebar nav {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 2rem;
 }
 
 .sidebar nav a {
-    font-size: 0.95rem;
+    font-size: 0.8rem;
     font-family: var(--font-heading);
-    font-weight: 500;
-    font-stretch: condensed;
+    font-weight: normal;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--nav);
@@ -373,22 +374,43 @@ h3 {
 
 .main-content {
     flex: 1;
-    padding: 2rem 0 1.5rem 3rem;
+    padding: 3.5rem 3.5rem 4rem;
     min-width: 0;
+    background: var(--paper);
 }
 
 /* ── Inner page typography ───────────────────────────────── */
+.chapter-title {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: normal;
+    letter-spacing: 0.03em;
+    line-height: 1.1;
+    color: var(--text);
+    margin-bottom: 0.4rem;
+}
+.chapter-rule {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.3rem 0 2.2rem;
+}
 .main-content h2 {
     font-family: var(--font-heading);
-    font-size: 1.1rem;
-    font-weight: 700;
-    margin: 2rem 0 0.8rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 2.5rem 0 0.8rem;
 }
 .main-content h3 {
     font-family: var(--font-heading);
-    font-size: 1rem;
-    font-weight: 700;
-    margin: 1.5rem 0 0.4rem;
+    font-size: 0.9rem;
+    font-weight: normal;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 2rem 0 0.6rem;
 }
 
 /* ── Post styles ─────────────────────────────────────────── */
@@ -460,13 +482,14 @@ h3 {
 
     .site-wrapper {
         flex-direction: column;
-        padding: 0 1.25rem;
+        padding: 0;
     }
     .sidebar {
         width: 100%;
         min-width: unset;
         border-bottom: 1px solid var(--border);
-        padding: 2rem 0 1.5rem;
+        border-right: none;
+        padding: 2rem 1.25rem 1.5rem;
     }
     .sidebar-inner {
         position: static;
@@ -477,7 +500,7 @@ h3 {
         gap: 0.4rem 1rem;
     }
     .main-content {
-        padding: 2rem 0 3rem;
+        padding: 2rem 1.25rem 3rem;
     }
 }
 
@@ -489,13 +512,15 @@ h3 {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:      #0e1e2e;
-    --text:    #f4f9fc;
-    --muted:   #5aaabb;
-    --accent:  #ff6a4a;
-    --border:  #e8a030;
-    --hover:   #e05a70;
-    --nav:     #5aaabb;
+    --bg:         #1a1108;
+    --paper:      #211608;
+    --sidebar-bg: #150e04;
+    --text:       #f0e8d4;
+    --muted:      #a08c64;
+    --accent:     #7ab898;
+    --border:     #3a2e18;
+    --hover:      #a0d4b8;
+    --nav:        #a08c64;
   }
 }
 
