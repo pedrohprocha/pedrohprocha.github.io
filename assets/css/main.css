@@ -470,7 +470,7 @@ h3 {
 
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
-    padding: 1.2rem 1.5rem;
+    padding: 0.6rem 1.5rem;
     font-size: 0.75rem;
     color: var(--muted);
     max-width: 100%;
@@ -478,6 +478,9 @@ h3 {
     text-align: center;
     border-top: 1px solid var(--border);
     background: var(--sidebar-bg);
+}
+.site-footer p {
+    margin-bottom: 0;
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
