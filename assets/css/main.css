@@ -345,7 +345,7 @@ h3 {
 }
 
 .headshot-sm {
-    width: 100%;
+    width: 82%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
@@ -477,11 +477,10 @@ h3 {
 
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
+    width: 100%;
     padding: 0.6rem 1.5rem;
     font-size: 0.75rem;
     color: var(--muted);
-    max-width: 100%;
-    margin: 0 auto;
     text-align: center;
     border-top: 1px solid var(--border);
     background: var(--sidebar-bg);
