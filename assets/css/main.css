@@ -169,7 +169,7 @@ h3 {
 }
 
 .home-nav a {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--muted);
@@ -181,7 +181,7 @@ h3 {
 }
 
 .home-bio {
-    font-size: 0.92rem;
+    font-size: 0.85rem;
     margin-bottom: 1.5rem;
     padding-bottom: 1.5rem;
     border-bottom: 1px solid var(--border);
@@ -192,7 +192,7 @@ h3 {
 }
 
 .home-contact {
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     color: var(--muted);
     line-height: 1.7;
     margin-bottom: 1.2rem;
@@ -216,7 +216,7 @@ h3 {
 }
 
 .lattes-link {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 500;
@@ -252,12 +252,12 @@ h3 {
 
 .pub-authors {
     color: var(--text);
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     margin-bottom: 0.2rem;
 }
 
 .pub-venue {
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     font-style: italic;
     color: var(--muted);
     margin-bottom: 0.4rem;
@@ -330,14 +330,14 @@ h3 {
 
 .sidebar-address {
     font-family: var(--font-body);
-    font-size: 0.78rem;
+    font-size: 0.85rem;
     font-style: normal;
     color: var(--muted);
     line-height: 1.8;
 }
 
 .tagline {
-    font-size: 0.80rem;
+    font-size: 0.85rem;
     color: var(--muted);
     font-style: italic;
     margin-top: 0;
@@ -379,7 +379,7 @@ h3 {
 }
 
 .sidebar nav a {
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-family: var(--font-heading);
     font-weight: normal;
     text-transform: uppercase;
@@ -399,11 +399,14 @@ h3 {
     min-width: 0;
     background: var(--paper);
 }
+.main-content p {
+    max-width: 68ch;
+}
 
 /* ── Inner page typography ───────────────────────────────── */
 .chapter-title {
     font-family: var(--font-heading);
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: normal;
     letter-spacing: 0.03em;
     line-height: 1.1;
@@ -417,7 +420,7 @@ h3 {
 }
 .main-content h2 {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: normal;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -426,7 +429,7 @@ h3 {
 }
 .main-content h3 {
     font-family: var(--font-heading);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-weight: normal;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -495,7 +498,7 @@ h3 {
 /* ── Responsive ──────────────────────────────────────────── */
 @media (max-width: 700px) {
     html {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .home-wrapper {
@@ -534,7 +537,7 @@ h3 {
 
 @media (max-width: 400px) {
     html {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
@@ -594,7 +597,7 @@ h3 {
 }
 
 .pub-authors {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     color: var(--text);
     margin-bottom: 0.15rem;
 }
