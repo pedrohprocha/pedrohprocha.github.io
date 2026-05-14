@@ -12,6 +12,18 @@
 }
 @font-face {
     font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Minion Pro";
+    src: url("/assets/fonts/MinionPro-MediumIt.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Minion Pro";
     src: url("/assets/fonts/MinionPro-Bold.otf") format("opentype");
     font-weight: 700;
     font-style: normal;
@@ -130,12 +142,14 @@ body {
 a {
     color: var(--accent);
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
     color: var(--hover);
-    text-decoration: underline dotted;
-    text-underline-offset: 3px;
+    text-decoration: underline wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
 }
 
 p {
@@ -400,9 +414,10 @@ h3 {
 
 .sidebar h1 {
     font-family: var(--font-heading);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.5rem;
     line-height: 1.3;
+    letter-spacing: 0.03em;
     margin-bottom: 0.2rem;
 }
 .sidebar h1 a {
@@ -426,7 +441,7 @@ h3 {
     font-family: var(--font-heading);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.12em;
     color: var(--nav);
     text-decoration: none;
 }
@@ -465,7 +480,8 @@ h3 {
     font-family: var(--font-heading);
     font-size: 0.85rem;
     font-weight: 700;
-    letter-spacing: 0.15em;
+    font-style: italic;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
     margin: 2.5rem 0 0.8rem;
@@ -474,7 +490,8 @@ h3 {
     font-family: var(--font-heading);
     font-size: 0.85rem;
     font-weight: 700;
-    letter-spacing: 0.15em;
+    font-style: italic;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--muted);
     margin: 2rem 0 0.6rem;
