@@ -1,12 +1,14 @@
 ---
 layout: default
-title: Research
+title: RESEARCH PROJECTS
 permalink: /research/
 ---
 
-Generally speaking, my research is concerned with the different dynamics mediated by communication in everyday politics. I have spearheaded or collaborated in projects that analyzed celebrity politics, audiences in social media, and the celebritization of politics.
+Generally speaking, I'm interested in the different political dynamics mediated by communication in everyday life. 
 
-Currently, I'm focused on understanding the cognitive and affective factors that influence the occurrence of political conversations.
+Within this area, I have spearheaded or collaborated in projects that analyzed celebrity politics, audiences in social media, and the celebritization of politics.
+
+My dissertation work is focused on understanding the cognitive and affective factors that influence the occurrence of political conversations.
 
 My Google Scholar profile is accessible [here](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en).
 
