@@ -31,7 +31,6 @@
       <div class="sidebar-inner">
           <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="{{ site.title }}" class="headshot-sm">
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-        <p class="tagline">{{ site.description }}</p>
         <nav>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' %} class="active"{% endif %}>CV</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
