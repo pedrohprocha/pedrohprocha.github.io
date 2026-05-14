@@ -57,9 +57,9 @@
     --sidebar-bg: #f0e9d8;
     --text:       #1c1409;
     --muted:      #5c4c32;
-    --accent:     #2e4d3a;
+    --accent:     #cb1029;
     --border:     #d6c9ae;
-    --hover:      #1a3528;
+    --hover:      #6b0613;
     --nav:        #5c4c32;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, sans-serif;
@@ -531,9 +531,9 @@ h3 {
     --sidebar-bg: #150e04;
     --text:       #f0e8d4;
     --muted:      #a08c64;
-    --accent:     #7ab898;
+    --accent:     #e8304a;
     --border:     #3a2e18;
-    --hover:      #a0d4b8;
+    --hover:      #ff6070;
     --nav:        #a08c64;
   }
 }
