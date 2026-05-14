@@ -317,6 +317,20 @@ h3 {
     color: var(--hover);
 }
 
+.sidebar-rule {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 1.4rem 0;
+}
+
+.sidebar-address {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    font-style: normal;
+    color: var(--muted);
+    line-height: 1.8;
+}
+
 .tagline {
     font-size: 0.95rem;
     color: var(--muted);
