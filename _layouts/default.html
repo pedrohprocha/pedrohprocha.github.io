@@ -18,6 +18,12 @@
           <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="{{ site.title }}" class="headshot-sm">
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <p class="tagline">{{ site.description }}</p>
+        <div class="sidebar-icons">
+          {% if site.scholar %}<a href="{{ site.scholar }}" title="Google Scholar" target="_blank">{% include icon-scholar.svg %}</a>{% endif %}
+          {% if site.linkedin %}<a href="{{ site.linkedin }}" title="LinkedIn" target="_blank">{% include icon-linkedin.svg %}</a>{% endif %}
+          {% if site.orcid %}<a href="{{ site.orcid }}" title="ORCID" target="_blank">{% include icon-orcid.svg %}</a>{% endif %}
+          {% if site.bluesky %}<a href="{{ site.bluesky }}" title="Bluesky" target="_blank">{% include icon-bluesky.svg %}</a>{% endif %}
+        </div>
         <nav>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' %} class="active"{% endif %}>CV</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
@@ -26,12 +32,6 @@
           <!-- a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' or page.layout == 'post' %} class="active"{% endif %}>THOUGHTS</a -->
           <a href="{{ '/contact' | relative_url }}"{% if page.url contains 'contact' %} class="active"{% endif %}>CONTACT</a>
         </nav>
-        <div class="sidebar-icons">
-          {% if site.scholar %}<a href="{{ site.scholar }}" title="Google Scholar" target="_blank">{% include icon-scholar.svg %}</a>{% endif %}
-          {% if site.linkedin %}<a href="{{ site.linkedin }}" title="LinkedIn" target="_blank">{% include icon-linkedin.svg %}</a>{% endif %}
-          {% if site.orcid %}<a href="{{ site.orcid }}" title="ORCID" target="_blank">{% include icon-orcid.svg %}</a>{% endif %}
-          {% if site.bluesky %}<a href="{{ site.bluesky }}" title="Bluesky" target="_blank">{% include icon-bluesky.svg %}</a>{% endif %}
-        </div>
       </div>
     </aside>
 
