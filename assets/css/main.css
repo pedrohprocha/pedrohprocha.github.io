@@ -504,7 +504,7 @@ h3 {
     padding: 0.2rem 0 0.2rem 1.6rem;
 }
 .main-content blockquote p {
-    font-style: italic;
+    font-style: regular;
     color: var(--muted);
     line-height: 1.9;
     margin-bottom: 0.6rem;
