@@ -50,6 +50,31 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay-Italic.otf") format("opentype");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay-Medium.otf") format("opentype");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay-MediumItalic.otf") format("opentype");
+    font-weight: 500;
+    font-style: italic;
+}
+
 /* ── Variables ───────────────────────────────────────────── */
 :root {
     --bg:         #f8f3e8;
@@ -62,7 +87,7 @@
     --hover:      #6b0613;
     --nav:        #5c4c32;
     --font-body: "Minion Pro", Georgia, serif;
-    --font-heading: "Gill Sans", "Gill Sans MT", "Gill Sans Nova", Calibri, sans-serif;
+    --font-heading: "Louize Display", "Gill Sans", Georgia, serif;
     --sidebar-w: 35%;
 }
 
@@ -357,7 +382,7 @@ h3 {
 
 .sidebar h1 {
     font-family: var(--font-heading);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
     line-height: 1.3;
     margin-bottom: 0.2rem;
