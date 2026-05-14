@@ -408,7 +408,7 @@ h3 {
     object-fit: cover;
     border-radius: 12px;
     display: block;
-    margin-bottom: 0.8rem;
+    margin-bottom: 2rem;
     filter: url(#duotone);
 }
 
