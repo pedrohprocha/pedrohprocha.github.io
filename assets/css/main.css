@@ -347,6 +347,7 @@ h3 {
     border-radius: 12px;
     display: block;
     margin-bottom: 0.8rem;
+    filter: url(#duotone);
 }
 
 .sidebar h1 {

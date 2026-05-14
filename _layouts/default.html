@@ -12,6 +12,20 @@
 </head>
 
 <body>
+
+  <svg width="0" height="0" style="position:absolute">
+    <defs>
+      <filter id="duotone" color-interpolation-filters="sRGB">
+        <feColorMatrix type="saturate" values="0"/>
+        <feComponentTransfer>
+          <feFuncR type="table" tableValues="0.42 0.98"/>
+          <feFuncG type="table" tableValues="0.02 0.97"/>
+          <feFuncB type="table" tableValues="0.07 0.94"/>
+        </feComponentTransfer>
+      </filter>
+    </defs>
+  </svg>
+
   <div class="site-wrapper">
     <aside class="sidebar">
       <div class="sidebar-inner">
