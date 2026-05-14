@@ -317,7 +317,7 @@ h3 {
 .pub-links a {
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.12em;
     margin-right: 0.8rem;
     text-decoration: none;
     color: var(--accent);
@@ -681,7 +681,7 @@ h3 {
 .pub-links a {
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.12em;
     text-decoration: none;
     color: var(--accent);
     border: 1px solid var(--accent);
