@@ -338,6 +338,7 @@ h3 {
     font-size: 1.3rem;
     line-height: 1.4;
     margin-bottom: 0.2rem;
+    white-space: nowrap;
 }
 .sidebar h1 a {
     color: var(--text);
