@@ -52,13 +52,13 @@
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --bg: #e8ede4;
-    --text: #0e1e28;
-    --muted: #1e6e5a;
-    --accent: #1a6a9a;
-    --border: #d4900a;
-    --hover: #1e6e5a;
-    --nav: #c0472a;
+    --bg:      #f4f9fc;
+    --text:    #0e1e2e;
+    --muted:   #2a7a8a;
+    --accent:  #e04a2a;
+    --border:  #e8a030;
+    --hover:   #c03a50;
+    --nav:     #2a7a8a;
     --font-body: "Minion Pro", Georgia, serif;
     --font-heading: "Cooper Hewitt", sans-serif;
     --sidebar-w: 30%;
@@ -73,7 +73,7 @@
     padding: 0;
 }
 html {
-    font-size: 17px;
+    font-size: 18px;
 }
 body {
     font-family: var(--font-body);
@@ -487,14 +487,15 @@ h3 {
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
-        --bg: #0e1e28;
-        --text: #d8eaf0;
-        --muted: #6a9aaa;
-        --accent: #0faa62;
-        --border: #1a3a4a;
-        --nav: #4a9aca;
-    }
+  :root {
+    --bg:      #0e1e2e;
+    --text:    #f4f9fc;
+    --muted:   #5aaabb;
+    --accent:  #ff6a4a;
+    --border:  #e8a030;
+    --hover:   #e05a70;
+    --nav:     #5aaabb;
+  }
 }
 
 /* ── Homepage publications ───────────────────────────────── */
