@@ -74,6 +74,18 @@
     font-weight: 500;
     font-style: italic;
 }
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Louize Display";
+    src: url("/assets/fonts/LouizeDisplay-BoldItalic.otf") format("opentype");
+    font-weight: 700;
+    font-style: italic;
+}
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
@@ -406,7 +418,7 @@ h3 {
 .sidebar nav a {
     font-size: 0.85rem;
     font-family: var(--font-heading);
-    font-weight: normal;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.07em;
     color: var(--nav);
@@ -446,7 +458,7 @@ h3 {
 .main-content h2 {
     font-family: var(--font-heading);
     font-size: 0.85rem;
-    font-weight: normal;
+    font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--muted);
@@ -455,7 +467,7 @@ h3 {
 .main-content h3 {
     font-family: var(--font-heading);
     font-size: 0.85rem;
-    font-weight: normal;
+    font-weight: 700;
     letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--muted);
