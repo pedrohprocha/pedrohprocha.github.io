@@ -335,7 +335,7 @@ h3 {
     color: var(--muted);
     font-style: italic;
     margin-top: 0;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
 }
 
 .headshot-sm {
@@ -481,6 +481,9 @@ h3 {
 }
 .site-footer p {
     margin-bottom: 0;
+}
+.site-footer strong {
+    font-weight: normal;
 }
 
 /* ── Responsive ──────────────────────────────────────────── */
