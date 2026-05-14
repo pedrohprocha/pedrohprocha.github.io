@@ -441,7 +441,7 @@ h3 {
     font-family: var(--font-heading);
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.22em;
     color: var(--nav);
     text-decoration: none;
 }
