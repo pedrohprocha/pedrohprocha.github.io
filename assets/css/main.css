@@ -63,38 +63,38 @@
 }
 
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Book.ttf") format("truetype");
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay-Italic.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Book Italic.ttf") format("truetype");
     font-weight: 400;
     font-style: italic;
 }
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay-Medium.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Medium.ttf") format("truetype");
     font-weight: 500;
     font-style: normal;
 }
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay-MediumItalic.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Medium Italic.ttf") format("truetype");
     font-weight: 500;
     font-style: italic;
 }
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay-Bold.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Bold.ttf") format("truetype");
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
-    font-family: "Louize Display";
-    src: url("/assets/fonts/LouizeDisplay-BoldItalic.otf") format("opentype");
+    font-family: "Sentinel SSm";
+    src: url("/assets/fonts/Sentinel SSm Bold Italic.ttf") format("truetype");
     font-weight: 700;
     font-style: italic;
 }
@@ -111,7 +111,7 @@
     --hover:      #6b0613;
     --nav:        #5c4c32;
     --font-body: "Minion Pro", Georgia, serif;
-    --font-heading: "Louize Display", "Gill Sans", Georgia, serif;
+    --font-heading: "Sentinel SSm", Georgia, serif;
     --sidebar-w: 35%;
 }
 
