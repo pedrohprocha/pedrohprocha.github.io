@@ -63,11 +63,11 @@
 :root {
     --bg:         #F8F5EA;
     --paper:      #FEFDF8;
-    --sidebar-bg: #EDE8D8;
+    --sidebar-bg: #F8F5EA;
     --text:       #1C3330;
     --muted:      #5A8A84;
-    --accent:     #3C726B;
-    --border:     #AECFCC;
+    --accent:     #73bec9;
+    --border:     #b54e09;
     --hover:      #E79889;
     --nav:        #3C726B;
     --font-body: "Sentinel SSm", Georgia, serif;
@@ -107,9 +107,7 @@ a {
 
 a:hover {
     color: var(--hover);
-    text-decoration: underline wavy;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
+    text-decoration: underline;
 }
 
 p {
@@ -369,7 +367,6 @@ h3 {
     border-radius: 12px;
     display: block;
     margin-bottom: 2rem;
-    filter: url(#duotone);
 }
 
 .sidebar h1 {
@@ -624,7 +621,6 @@ h3 {
     font-weight: 500;
     margin-bottom: 0.2rem;
     line-height: 1.5;
-    letter-spacing: 0.12em;
 }
 
 .pub-title a {
