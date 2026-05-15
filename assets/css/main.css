@@ -84,7 +84,7 @@
     padding: 0;
 }
 html {
-    font-size: 18px;
+    font-size: 16px;
 }
 body {
     font-family: var(--font-body);
@@ -102,7 +102,7 @@ body {
 a {
     color: var(--accent);
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 a:hover {
@@ -352,27 +352,28 @@ h3 {
 }
 
 .tagline {
-    font-size: 0.85rem;
-    color: var(--muted);
+    font-size: 0.82rem;
+    font-weight: 300;
     font-style: italic;
+    color: var(--muted);
     margin-top: 0;
     margin-bottom: 1.2rem;
 }
 
 .headshot-sm {
-    width: 82%;
+    width: 65%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 12px;
     display: block;
-    margin-bottom: 2rem;
+    margin: 0 auto 2rem;
 }
 
 .sidebar h1 {
     font-family: var(--font-heading);
-    font-weight: 500;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.3rem;
     line-height: 1.3;
     letter-spacing: 0.02em;
     margin-bottom: 0.2rem;
@@ -394,11 +395,11 @@ h3 {
 }
 
 .sidebar nav a {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     font-family: var(--font-heading);
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.1em;
     color: var(--nav);
     text-decoration: none;
 }
@@ -421,8 +422,8 @@ h3 {
 /* ── Inner page typography ───────────────────────────────── */
 .chapter-title {
     font-family: var(--font-heading);
-    font-size: 2.5rem;
-    font-weight: normal;
+    font-size: 2rem;
+    font-weight: 300;
     letter-spacing: 0.01em;
     line-height: 1.1;
     color: var(--text);
@@ -435,20 +436,20 @@ h3 {
 }
 .main-content h2 {
     font-family: var(--font-heading);
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.78rem;
+    font-weight: 500;
     font-style: italic;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--muted);
     margin: 2.5rem 0 0.8rem;
 }
 .main-content h3 {
     font-family: var(--font-heading);
-    font-size: 0.85rem;
-    font-weight: 700;
+    font-size: 0.78rem;
+    font-weight: 500;
     font-style: italic;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--muted);
     margin: 2rem 0 0.6rem;
@@ -617,8 +618,8 @@ h3 {
 
 .pub-title {
     font-family: var(--font-heading);
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 0.95rem;
+    font-weight: 600;
     margin-bottom: 0.2rem;
     line-height: 1.5;
 }
@@ -634,13 +635,14 @@ h3 {
 }
 
 .pub-authors {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--text);
     margin-bottom: 0.15rem;
 }
 
 .pub-venue {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
+    font-weight: 400;
     font-style: italic;
     color: var(--text);
     margin-bottom: 0.4rem;
