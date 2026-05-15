@@ -63,11 +63,11 @@
 :root {
     --bg:         #F8F5EA;
     --paper:      #FEFDF8;
-    --sidebar-bg: #F8F5EA;
+    --sidebar-bg: #EDE8D8;
     --text:       #1C3330;
     --muted:      #5A8A84;
-    --accent:     #4dc0d1;
-    --border:     #b54e09;
+    --accent:     #3C726B;
+    --border:     #AECFCC;
     --hover:      #E79889;
     --nav:        #3C726B;
     --font-body: "Sentinel SSm", Georgia, serif;
@@ -107,7 +107,9 @@ a {
 
 a:hover {
     color: var(--hover);
-    text-decoration: underline;
+    text-decoration: underline wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 4px;
 }
 
 p {
@@ -291,7 +293,7 @@ h3 {
 /* ══ INNER PAGE LAYOUT ══════════════════════════════════════ */
 .site-wrapper {
     display: flex;
-    max-width: 100%;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -416,7 +418,7 @@ h3 {
     background: var(--paper);
 }
 .main-content p {
-    max-width: 68ch;
+    max-width: 100%;
 }
 
 /* ── Inner page typography ───────────────────────────────── */
