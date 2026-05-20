@@ -297,7 +297,7 @@ h3 {
     width: 100%;
     margin: 0 auto;
     padding: 0;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 0;
 }
 
@@ -308,10 +308,6 @@ h3 {
     padding: 3rem 1.8rem 2rem 2rem;
     background: var(--sidebar-bg);
     border-right: 1px solid var(--border);
-    position: sticky;
-    top: 0;
-    height: 100vh;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
