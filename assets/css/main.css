@@ -406,6 +406,20 @@ h3 {
     color: var(--nav);
     text-decoration: none;
 }
+.sidebar nav a::before {
+    content: "☛";
+    font-family: var(--font-heading);
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    margin-right: 0.45em;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+}
+.sidebar nav a:hover::before,
+.sidebar nav a.active::before {
+    opacity: 1;
+}
 
 .sidebar nav a:hover,
 .sidebar nav a.active {
