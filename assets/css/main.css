@@ -254,14 +254,6 @@ h3 {
     margin-bottom: 0;
 }
 
-.pub-title {
-    font-family: var(--font-heading)
-    font-weight: 500;
-    font-stretch: normal;
-    font-size: 1rem;
-    margin-bottom: 0.25rem;
-}
-
 .pub-authors {
     color: var(--text);
     font-size: 0.85rem;
@@ -344,14 +336,23 @@ h3 {
 
 .sidebar-address {
     font-family: var(--font-ui);
-    font-size: 0.85rem;
+    font-size: 0.78rem;
     font-style: normal;
     color: var(--muted);
     line-height: 1.8;
 }
 .sidebar-address .institution {
     display: block;
-    margin-bottom: 0.5rem;
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+.sidebar-address .postal {
+    display: block;
+    font-weight: 300;
+    font-size: 0.75rem;
+}
+.sidebar-address a {
+    font-weight: 400;
 }
 
 .tagline {
@@ -375,7 +376,7 @@ h3 {
 
 .sidebar h1 {
     font-family: var(--font-ui);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1.3rem;
     line-height: 1.3;
     letter-spacing: 0.02em;
@@ -383,6 +384,7 @@ h3 {
 }
 .sidebar h1 a {
     color: var(--text);
+    font-weight: 700;
     text-align: justify;
     text-decoration: none;
 }
@@ -400,7 +402,7 @@ h3 {
 .sidebar nav a {
     font-size: 0.8rem;
     font-family: var(--font-ui);
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--nav);
@@ -534,6 +536,7 @@ h3 {
     padding: 0.45rem 1.5rem;
     font-family: var(--font-ui);
     font-size: 0.75rem;
+    font-weight: 300;
     color: var(--muted);
     border-top: 1px solid var(--border);
     background: var(--sidebar-bg);
