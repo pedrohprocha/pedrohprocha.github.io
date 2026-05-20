@@ -107,9 +107,9 @@ a {
 
 a:hover {
     color: var(--hover);
-    text-decoration: underline wavy;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 4px;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
 }
 
 p {
@@ -367,7 +367,7 @@ h3 {
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 12px;
+    border-radius: 50%;
     display: block;
     margin: 0 auto 1.8rem;
 }
