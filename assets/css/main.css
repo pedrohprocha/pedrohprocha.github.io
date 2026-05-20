@@ -352,6 +352,10 @@ h3 {
     color: var(--muted);
     line-height: 1.8;
 }
+.sidebar-address .institution {
+    display: block;
+    margin-bottom: 0.5rem;
+}
 
 .tagline {
     font-size: 0.82rem;
