@@ -331,7 +331,7 @@ h3 {
 .sidebar-rule {
     border: none;
     border-top: 1px solid var(--border);
-    margin: 1rem 0;
+    margin: 1.6rem 0;
 }
 
 .sidebar-address {
@@ -369,7 +369,7 @@ h3 {
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    border-radius: 22%;
+    border-radius: 10%;
     display: block;
     margin: 0 0 1.8rem;
 }
@@ -395,7 +395,7 @@ h3 {
 .sidebar nav {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.1rem;
     margin-top: 1.8rem;
 }
 
