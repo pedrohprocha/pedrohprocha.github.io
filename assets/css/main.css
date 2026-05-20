@@ -61,18 +61,33 @@
 
 /* ── Variables ───────────────────────────────────────────── */
 :root {
-    --bg:         #F8F5EA;
-    --paper:      #FEFDF8;
-    --sidebar-bg: #EDE8D8;
-    --text:       #1C3330;
-    --muted:      #5A8A84;
-    --accent:     #3C726B;
-    --border:     #C4BAA0;
-    --hover:      #E79889;
-    --nav:        #3C726B;
-    --font-body: "Sentinel SSm", Georgia, serif;
+    /* Backgrounds — three parchment layers */
+    --bg:           #F5F0DC;   /* body background */
+    --paper:        #F5F0DC;   /* main content */
+    --sidebar-bg:   #E6DFBF;   /* sidebar & footer */
+    --vellum:       #EDE7C8;   /* blockquote tint, inset areas */
+
+    /* Text — four tonal steps */
+    --text:         #1E1608;   /* ink — primary text */
+    --muted:        #7A6040;   /* sepia — nav, section heads */
+    --dusk:         #A8906A;   /* dusk — postal, venue, footer */
+
+    /* Accent & interaction */
+    --accent:       #5C3D1E;   /* walnut — links, pub titles */
+    --nav:          #7A6040;   /* nav links (same as --muted) */
+    --hover:        #B85C38;   /* rust — hover, active */
+
+    /* Borders — two weights */
+    --border:       #C4AA72;   /* primary — site edge, sidebar rule, section heads */
+    --border-light: #D8C898;   /* decorative — chapter rule, list dividers */
+
+    /* Icons */
+    --icon:         #9A7850;
+
+    /* Typefaces */
+    --font-body:    "Sentinel SSm", Georgia, serif;
     --font-heading: "Sentinel SSm", Georgia, serif;
-    --font-ui: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-ui:      "Helvetica Neue", Helvetica, Arial, sans-serif;
     --sidebar-w: 35%;
 }
 
@@ -350,6 +365,7 @@ h3 {
     display: block;
     font-weight: 300;
     font-size: 0.75rem;
+    color: var(--dusk);
 }
 .sidebar-address a {
     font-weight: 400;
@@ -443,7 +459,7 @@ h3 {
 }
 .chapter-rule {
     border: none;
-    border-top: 1px solid var(--border);
+    border-top: 1px solid var(--border-light);
     margin: 1.3rem 0 2.2rem;
 }
 .main-content h2 {
@@ -480,8 +496,9 @@ h3 {
 /* ── Blockquote ──────────────────────────────────────────── */
 .main-content blockquote {
     border-left: 3px solid var(--hover);
+    background: var(--vellum);
     margin: 1.8rem 0;
-    padding: 0.2rem 0 0.2rem 1.6rem;
+    padding: 0.6rem 1.2rem 0.6rem 1.4rem;
 }
 .main-content blockquote p {
     font-style: italic;
@@ -542,7 +559,7 @@ h3 {
     font-family: var(--font-ui);
     font-size: 0.75rem;
     font-weight: 300;
-    color: var(--muted);
+    color: var(--dusk);
     border-top: 1px solid var(--border);
     background: var(--sidebar-bg);
     display: flex;
@@ -609,15 +626,19 @@ h3 {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg:         #0f1e1c;
-    --paper:      #162220;
-    --sidebar-bg: #0a1614;
-    --text:       #dff0ee;
-    --muted:      #7ab5af;
-    --accent:     #73BDC9;
-    --border:     #2a4a47;
-    --hover:      #E79889;
-    --nav:        #7ab5af;
+    --bg:           #231B0D;
+    --paper:        #231B0D;
+    --sidebar-bg:   #1A1208;
+    --vellum:       #2C2110;
+    --text:         #E8DFBE;
+    --muted:        #9A855E;
+    --dusk:         #6A5840;
+    --accent:       #D4A86A;
+    --nav:          #9A855E;
+    --hover:        #C86040;
+    --border:       #3A2C12;
+    --border-light: #2A1E0A;
+    --icon:         #8A7248;
   }
 }
 
@@ -672,7 +693,7 @@ h3 {
     font-size: 0.8rem;
     font-weight: 300;
     font-style: italic;
-    color: var(--muted);
+    color: var(--dusk);
     margin-bottom: 0.4rem;
 }
 
