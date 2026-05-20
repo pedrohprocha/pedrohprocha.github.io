@@ -67,7 +67,7 @@
     --text:       #1C3330;
     --muted:      #5A8A84;
     --accent:     #3C726B;
-    --border:     #AECFCC;
+    --border:     #C4BAA0;
     --hover:      #E79889;
     --nav:        #3C726B;
     --font-body: "Sentinel SSm", Georgia, serif;
@@ -314,7 +314,7 @@ h3 {
     overflow-y: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .sidebar-inner {
@@ -342,7 +342,7 @@ h3 {
 .sidebar-rule {
     border: none;
     border-top: 1px solid var(--border);
-    margin: 1.4rem 0;
+    margin: 1rem 0;
 }
 
 .sidebar-address {
@@ -363,13 +363,13 @@ h3 {
 }
 
 .headshot-sm {
-    width: 65%;
+    width: 52%;
     height: auto;
     aspect-ratio: 1 / 1;
     object-fit: cover;
     border-radius: 12px;
     display: block;
-    margin: 0 auto 2rem;
+    margin: 0 auto 1.8rem;
 }
 
 .sidebar h1 {
@@ -424,8 +424,8 @@ h3 {
 /* ── Inner page typography ───────────────────────────────── */
 .chapter-title {
     font-family: var(--font-heading);
-    font-size: 2rem;
-    font-weight: 300;
+    font-size: 2.2rem;
+    font-weight: 500;
     letter-spacing: 0.01em;
     line-height: 1.1;
     color: var(--text);
@@ -439,7 +439,7 @@ h3 {
 .main-content h2 {
     font-family: var(--font-heading);
     font-size: 0.78rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -449,7 +449,7 @@ h3 {
 .main-content h3 {
     font-family: var(--font-heading);
     font-size: 0.78rem;
-    font-weight: 500;
+    font-weight: 600;
     font-style: italic;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -459,7 +459,7 @@ h3 {
 
 /* ── Blockquote ──────────────────────────────────────────── */
 .main-content blockquote {
-    border-left: 3px solid var(--accent);
+    border-left: 3px solid var(--hover);
     margin: 1.8rem 0;
     padding: 0.2rem 0 0.2rem 1.6rem;
 }
@@ -517,12 +517,15 @@ h3 {
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
     width: 100%;
-    padding: 0.6rem 1.5rem;
+    padding: 0.45rem 1.5rem;
     font-size: 0.75rem;
     color: var(--muted);
-    text-align: center;
     border-top: 1px solid var(--border);
     background: var(--sidebar-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
 }
 .site-footer p {
     margin-bottom: 0;
