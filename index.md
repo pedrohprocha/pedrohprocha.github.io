@@ -11,7 +11,7 @@ Before coming to Tech, I received an M.A. and a B.A. from the [Department of Soc
 
 Outside of academia, I enjoy going to concerts, watching movies, gardening my indoor plants, and hiking with my partner and our dog, Diesel.
 
-## Recent Publications
+## ☛ Recent Publications
 
 <div class="pub-list-home">
 {% for pub in site.data.publications.peer_reviewed limit:2 %}
