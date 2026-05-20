@@ -1,16 +1,14 @@
 ---
 layout: default
 title: Home
-description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright Fellow at Texas Tech University studying political communication, partisan dynamics, and everyday political conversations."
+description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University studying political communication."
 ---
 
-Hi! I'm a [Ph.D. candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University. I'm currently working on projects that examine how people anticipate and navigate political conversations in divided societies.
+Hi! I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University.
 
-My dissertation advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php), and my doctoral work is funded by the Fulbright Program, the Brazilian Federal Agency for Support and Evaluation of Graduate Education, and Texas Tech University. 
+I'm currently working on projects that examine how people anticipate and navigate political conversations in divided societies, and my advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php). My doctoral work is funded by the [Fulbright Program](https://fulbright.org.br/), [the Brazilian government](https://www.gov.br/capes/en), and Texas Tech University. 
 
-Before coming to Tech, I received an M.A. and a B.A. from the [Department of Social Communication](http://www.ppgcom.fafich.ufmg.br/index.php) at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/) in Belo Horizonte, Brazil. While there, I conducted research at the [Research Group in Image and Sociability](https://www.fafich.ufmg.br/gris/) and the [Research Group in Media and Public Sphere](https://grupoemeblog.wordpress.com/).
-
-Outside of academia, I enjoy going to concerts, watching movies, gardening my indoor plants, and hiking with my partner and our dog, Diesel.
+I was born and raised in Brazil, where I studied at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy watching movies and hiking with my partner and our dog, Diesel.
 
 ## ☛ Recent Publications
 

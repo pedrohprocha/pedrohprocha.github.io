@@ -2,7 +2,7 @@
 layout: default
 title: RESEARCH PROJECTS
 permalink: /research/
-description: "Research by Pedro H. P. Rocha on political communication, celebrity politics, and the cognitive and affective factors shaping political conversations."
+description: "Research by Pedro H. P. Rocha on political communication and celebrity politics."
 ---
 
 Generally speaking, I'm interested in the different political dynamics mediated by communication in everyday life. Within this area, I have spearheaded or collaborated in projects that analyzed celebrity politics, audiences in social media, and the celebritization of politics.
