@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Home
+description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright Fellow at Texas Tech University studying political communication, partisan dynamics, and everyday political conversations."
 ---
 
 Hi! I'm a [Ph.D. candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University. I'm currently working on projects that examine how people anticipate and navigate political conversations in divided societies.

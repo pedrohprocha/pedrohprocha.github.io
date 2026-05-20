@@ -2,6 +2,7 @@
 layout: default
 title: RESEARCH PROJECTS
 permalink: /research/
+description: "Research by Pedro H. P. Rocha on political communication, celebrity politics, and the cognitive and affective factors shaping political conversations."
 ---
 
 Generally speaking, I'm interested in the different political dynamics mediated by communication in everyday life. Within this area, I have spearheaded or collaborated in projects that analyzed celebrity politics, audiences in social media, and the celebritization of politics.
@@ -20,3 +21,10 @@ My Google Scholar profile is accessible [here](https://scholar.google.com/citati
 1. "Celebrity Activism as Discursive Representation: A Case Study of the Brazilian Singer Daniela Mercury and LGBTQ rights in Brazil," with Regiane Garcez. Available at [Bloomsbury Publishing](https://www.bloomsbury.com/us/audience-interactions-in-contemporary-celebrity-culture-9781666922431/), 2025.
 
 2. "As políticas de Anitta" and "Celebridades em tempos de Covid-19", free download at [Selo PPGCOM UFMG Press](https://seloppgcomufmg.com.br/colecoes/diario-da-quarentena/), 2021.
+
+### ☛ Manuscripts
+
+1. As políticas de Anitta: Dinâmicas interacionais (des)politizadas entre uma celebridade e atores sociais, 2023. Portuguese only.
+2. Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos, 2021. Portuguese only.
+
+<p><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
