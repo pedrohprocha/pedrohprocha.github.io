@@ -3,7 +3,7 @@ layout: default
 title: Home
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University."
 ---
-Bem-vindo to my website!
+*Bem-vindo* to my website!
 
 I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University, currently working on research that explores how emotions can motivate people to engage in political conversations.
 
