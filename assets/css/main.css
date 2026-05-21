@@ -487,6 +487,14 @@ h3 {
     padding-bottom: 0.5rem;
     border-bottom: 1px solid var(--border);
 }
+.main-content h4 {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    font-style: normal;
+    color: var(--text);
+    margin: 1.6rem 0 0.5rem;
+}
 
 /* ── List item inline italics (journal names) ───────────── */
 .main-content li em {
