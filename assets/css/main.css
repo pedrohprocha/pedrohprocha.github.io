@@ -42,7 +42,8 @@
 }
 @font-face {
     font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Semibold Italic.ttf") format("truetype");
+    src: url("/assets/fonts/Sentinel SSm Semibold Italic.ttf")
+        format("truetype");
     font-weight: 600;
     font-style: italic;
 }
@@ -62,32 +63,32 @@
 /* ── Variables ───────────────────────────────────────────── */
 :root {
     /* Backgrounds — three parchment layers */
-    --bg:           #F5F0DC;   /* body background */
-    --paper:        #F5F0DC;   /* main content */
-    --sidebar-bg:   #E6DFBF;   /* sidebar & footer */
-    --vellum:       #EDE7C8;   /* blockquote tint, inset areas */
+    --bg: #f5f0dc; /* body background */
+    --paper: #f5f0dc; /* main content */
+    --sidebar-bg: #e6dfbf; /* sidebar & footer */
+    --vellum: #ede7c8; /* blockquote tint, inset areas */
 
     /* Text — four tonal steps */
-    --text:         #1E1608;   /* ink — primary text */
-    --muted:        #7A6040;   /* sepia — nav, section heads */
-    --dusk:         #A8906A;   /* dusk — postal, venue, footer */
+    --text: #1e1608; /* ink — primary text */
+    --muted: #7a6040; /* sepia — nav, section heads */
+    --dusk: #917d5d; /* dusk — postal, venue, footer */
 
     /* Accent & interaction */
-    --accent:       #5C3D1E;   /* walnut — links, pub titles */
-    --nav:          #7A6040;   /* nav links (same as --muted) */
-    --hover:        #B85C38;   /* rust — hover, active */
+    --accent: #5c3d1e; /* walnut — links, pub titles */
+    --nav: #7a6040; /* nav links (same as --muted) */
+    --hover: #b85c38; /* rust — hover, active */
 
     /* Borders — two weights */
-    --border:       #C4AA72;   /* primary — site edge, sidebar rule, section heads */
-    --border-light: #D8C898;   /* decorative — chapter rule, list dividers */
+    --border: #c4aa72; /* primary — site edge, sidebar rule, section heads */
+    --border-light: #d8c898; /* decorative — chapter rule, list dividers */
 
     /* Icons */
-    --icon:         #9A7850;
+    --icon: #9a7850;
 
     /* Typefaces */
-    --font-body:    "Sentinel SSm", Georgia, serif;
+    --font-body: "Sentinel SSm", Georgia, serif;
     --font-heading: "Sentinel SSm", Georgia, serif;
-    --font-ui:      "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-ui: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --sidebar-w: 35%;
 }
 
@@ -625,21 +626,21 @@ h3 {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --bg:           #231B0D;
-    --paper:        #231B0D;
-    --sidebar-bg:   #1A1208;
-    --vellum:       #2C2110;
-    --text:         #E8DFBE;
-    --muted:        #9A855E;
-    --dusk:         #6A5840;
-    --accent:       #D4A86A;
-    --nav:          #9A855E;
-    --hover:        #C86040;
-    --border:       #3A2C12;
-    --border-light: #2A1E0A;
-    --icon:         #8A7248;
-  }
+    :root {
+        --bg: #231b0d;
+        --paper: #231b0d;
+        --sidebar-bg: #1a1208;
+        --vellum: #2c2110;
+        --text: #e8dfbe;
+        --muted: #9a855e;
+        --dusk: #6a5840;
+        --accent: #d4a86a;
+        --nav: #9a855e;
+        --hover: #c86040;
+        --border: #3a2c12;
+        --border-light: #2a1e0a;
+        --icon: #8a7248;
+    }
 }
 
 /* ── Homepage publications ───────────────────────────────── */
@@ -654,7 +655,6 @@ h3 {
     padding: 0.75rem 0;
     border-bottom: 1px solid var(--border);
 }
-
 
 .pub-item:last-child {
     border-bottom: none;
