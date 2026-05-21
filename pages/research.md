@@ -27,5 +27,5 @@ My Google Scholar profile is accessible [here](https://scholar.google.com/citati
 1. As políticas de Anitta: Dinâmicas interacionais (des)politizadas entre uma celebridade e atores sociais, 2023. Portuguese only.
 2. Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos, 2021. Portuguese only.
 
-
+<br><br>
 <p style="text-align: center;"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>

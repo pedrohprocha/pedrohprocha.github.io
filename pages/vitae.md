@@ -140,4 +140,5 @@ Interviewed by Exame Magazine, Radio UFMG Educativa, Rede Minas, and TV UFMG.
 - Organization, 9th Conference of the Brazilian Political Communication Association, 2021.
 - Organization, Pint of Science Festival, 2020.
 
+<br><br>
 <p><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
