@@ -50,7 +50,6 @@
         <nav>
           <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
-          <a href="{{ '/vitae' | relative_url }}"{% if page.url contains 'vitae' %} class="active"{% endif %}>VITAE</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
           <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>DATA</a>
           <!-- a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Courses</a -->
