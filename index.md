@@ -4,7 +4,8 @@ title: Home
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University."
 ---
 #### *Bem-vindo* to my website!
-
+<br>
+    
 I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University, currently working on research that explores how emotions can motivate people to engage in political conversations.
 
 My doctoral work is funded by the [Fulbright Program](https://fulbright.org.br/), [the Brazilian government](https://www.gov.br/capes/en), and Texas Tech University. My advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
