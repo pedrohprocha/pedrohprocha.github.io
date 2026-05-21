@@ -360,7 +360,7 @@ h3 {
 .sidebar-address .institution {
     display: block;
     font-weight: 400;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0;
 }
 .sidebar-address .postal {
     display: block;
