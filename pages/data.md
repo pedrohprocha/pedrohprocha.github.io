@@ -9,4 +9,4 @@ description: "Replication datasets and materials from Pedro H. P. Rocha's resear
 Survey responses and SPSS syntax from [McLaughlin et al. (2025)](https://doi.org/10.1007/s11109-025-10068-w).
 
 
-<p><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
+<p style="text-align: center;"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>

@@ -28,4 +28,4 @@ My Google Scholar profile is accessible [here](https://scholar.google.com/citati
 2. Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos, 2021. Portuguese only.
 
 
-<p><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
+<p style="text-align: center;"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
