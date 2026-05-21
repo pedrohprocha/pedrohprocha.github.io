@@ -104,7 +104,7 @@ html {
 }
 body {
     font-family: var(--font-body);
-    background: var(--sidebar-bg);
+    background: var(--paper);
     color: var(--text);
     line-height: 1.7;
     display: flex;
