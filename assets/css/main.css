@@ -739,7 +739,7 @@ h3 {
 
 /* ── Homepage publications ───────────────────────────────── */
 .pub-list-home p {
-    margin-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 .pub-list-home {
     display: flex;
