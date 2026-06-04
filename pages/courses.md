@@ -7,7 +7,7 @@ permalink: /courses/
 Below is a list of courses I have taught across the College of Media & Communication at Texas Tech University and the College of Philosophy and Human Sciences at the University of Minas Gerais.
 
 
-## Texas Tech University
+## Texas Tech University (2023-present)
 
 ### PCOM 4373 Digital Media and Professional Communication Capstone
 The senior capstone for the Digital Media and Professional Communication major. Students produce an integrative professional project applying digital media skills and communication knowledge from across the curriculum, with a focus on career-ready portfolio work.
@@ -27,9 +27,16 @@ A core undergraduate course in oral communication for professional settings. Ass
 ### MCOM 2330 Media Literacy
 Examines how media messages are produced and interpreted across platforms. The course covers the media industry, digital media, and professional fields including journalism, advertising, and public relations. Satisfies TTU's core Language, Philosophy, and Culture requirement.
 
-## University of Minas Gerais
+## University of Minas Gerais (2020-2022)
 
-COM323 Journalism Capstone *(Projetos C - Jornalismo)*
-COM319 Hands-on Projects in Journalism *(Projetos B II - Jornalismo)*
-COM087 Special Topics in Communication: The Crisis of Democracy *(Tópicos em Comunicação Social: Crise da Democracia)* - teaching assistant to Dr. Rousiley Maia
-COM055 Political Communication *(Comunicação e Política)* - teaching assistant to Dr. Camilo Aggio
+### COM323 Journalism Capstone *(Projetos C - Jornalismo)*
+A required upper-division course in which students critically analyze communication products using theoretical and empirical frameworks. Methodological experimentation is part of the work. Students engage advanced examples across film, television, radio, and print journalism.
+
+### COM319 Hands-on Projects in Journalism *(Projetos B II - Jornalismo)*
+A production course covering advanced journalistic processes with a sustained focus on theory-practice integration. Students develop critical observational skills and study communication products across formats (e.g., film, television, radio, newspapers, and magazines) at an intermediate level.
+
+### COM087 Special Topics in Communication: The Crisis of Democracy *(Tópicos em Comunicação Social: Crise da Democracia)* - teaching assistant to Dr. Rousiley Maia
+Addresses contemporary threats to democratic politics (e.g., polarization, fake news, reactive activism, and declining civic norms) through empirical research in political communication. Students study methods for analyzing these phenomena in hybrid media environments, working through cases drawn from journalism, advertising, and public relations.
+
+### COM055 Political Communication *(Comunicação e Política)* - teaching assistant to Dr. Camilo Aggio
+An elective course on communication, power, and politics. Topics include propaganda and ideology, the relationship between the political and media spheres, social control through communication, and how conditions for political participation have shifted in contemporary media environments.
