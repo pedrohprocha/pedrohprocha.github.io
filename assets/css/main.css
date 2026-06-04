@@ -631,11 +631,21 @@ h3 {
 }
 
 /* ── Color utilities ─────────────────────────────────────── */
-.text-ink    { color: var(--text); }
-.text-accent { color: var(--accent); }
-.text-muted  { color: var(--muted); }
-.text-dusk   { color: var(--dusk); }
-.text-rust   { color: var(--hover); }
+.text-ink {
+    color: var(--text);
+}
+.text-accent {
+    color: var(--accent);
+}
+.text-muted {
+    color: var(--muted);
+}
+.text-dusk {
+    color: var(--dusk);
+}
+.text-rust {
+    color: var(--hover);
+}
 
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
@@ -729,7 +739,7 @@ h3 {
 
 /* ── Homepage publications ───────────────────────────────── */
 .pub-list-home p {
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
 }
 .pub-list-home {
     display: flex;
