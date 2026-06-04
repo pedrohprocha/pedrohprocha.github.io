@@ -630,6 +630,13 @@ h3 {
     color: var(--dusk);
 }
 
+/* ── Color utilities ─────────────────────────────────────── */
+.text-ink    { color: var(--text); }
+.text-accent { color: var(--accent); }
+.text-muted  { color: var(--muted); }
+.text-dusk   { color: var(--dusk); }
+.text-rust   { color: var(--hover); }
+
 /* ── Footer ──────────────────────────────────────────────── */
 .site-footer {
     width: 100%;
