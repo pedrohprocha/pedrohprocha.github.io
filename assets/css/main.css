@@ -721,6 +721,9 @@ h3 {
 }
 
 /* ── Homepage publications ───────────────────────────────── */
+.pub-list-home p {
+    margin-bottom: 1rem;
+}
 .pub-list-home {
     display: flex;
     flex-direction: column;
