@@ -10,4 +10,4 @@ The most recent version (Dec 2025) of my CV  is available as a PDF [here]({{ '/a
 A [much more comprehensive version](http://lattes.cnpq.br/8720377365114820) of my career is available in English and Portuguese at the <span style="font-variant:small-caps;">Lattes</span> database from the National Council for Scientific and Technological Development <span style="font-variant:small-caps;">(CNPq)</span> of Brazil.
 
 <br><br>
-<p style="text-align: center;"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
+<p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>

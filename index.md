@@ -26,4 +26,4 @@ I was born and raised in Brazil, where I studied at the [University of Minas Ger
 {% endfor %}
 </div>
 
-<p style="text-align: center;"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
+<p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>
