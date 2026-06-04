@@ -48,11 +48,11 @@
           <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}" class="headshot-sm">
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <nav>
-          <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
+          <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>HOME</a>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
-          <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>COURSES</a>
-          <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>DATA</a>
+          <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>TEACHING</a>
+          <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>REPLICATION DATA</a>
           <!-- a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Courses</a -->
           <!-- a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' or page.layout == 'post' %} class="active"{% endif %}>THOUGHTS</a -->
         </nav>

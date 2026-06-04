@@ -7,7 +7,7 @@ permalink: /courses/
 Below is a list of courses I have taught across the College of Media & Communication at Texas Tech University and the College of Philosophy and Human Sciences at the University of Minas Gerais.
 
 
-## Texas Tech University (2023-present)
+# Texas Tech University (2023-present)
 
 ### PCOM 4373 Digital Media and Professional Communication Capstone
 The senior capstone for the Digital Media and Professional Communication major. Students produce an integrative professional project applying digital media skills and communication knowledge from across the curriculum, with a focus on career-ready portfolio work.
@@ -27,7 +27,7 @@ A core undergraduate course in oral communication for professional settings. Ass
 ### MCOM 2330 Media Literacy
 Examines how media messages are produced and interpreted across platforms. The course covers the media industry, digital media, and professional fields including journalism, advertising, and public relations. Satisfies TTU's core Language, Philosophy, and Culture requirement.
 
-## University of Minas Gerais (2020-2022)
+# University of Minas Gerais (2020-2022)
 
 ### COM323 Journalism Capstone *(Projetos C - Jornalismo)*
 A required upper-division course in which students critically analyze communication products using theoretical and empirical frameworks. Methodological experimentation is part of the work. Students engage advanced examples across film, television, radio, and print journalism.
