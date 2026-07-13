@@ -3,13 +3,13 @@ layout: home
 title: Home
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University."
 ---
-*Bem-vindo* to my website!
+**Bem-vindo**!
 
-I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University, currently working on research that explores how emotions can motivate people to engage in political conversations.
+I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) in the College of Media & Communication at Texas Tech University. My research examines the role of emotions in political communication, focusing on how people's expectations about how a conversation will feel shape their willingness to talk about politics.
 
-My doctoral work is funded by a joint fellowship from the [Fulbright Program](https://fulbright.org.br/) and the [Brazilian Federal Agency for Support and Evaluation of Graduate Education](https://www.gov.br/capes/en), as well as several scholarships from Texas Tech. My advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
+My doctoral work is funded by a joint fellowship from the [Fulbright Program](https://fulbright.org.br/) and the [Brazilian Federal Agency for Support and Evaluation of Graduate Education](https://www.gov.br/capes/en), along with several scholarships from Texas Tech. I work under the supervision of [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
 
-I was born and raised in Brazil, where I studied at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy watching movies and hiking with my partner and our little morkie, Diesel.
+I was born and raised in Brazil, where I studied at the [Federal University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy traveling and spending time in nature alongisde my partner and our little morkie, Diesel.
 
 ## ☛ Recent Publications
 
