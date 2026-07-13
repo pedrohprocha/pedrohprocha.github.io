@@ -214,22 +214,6 @@ p { margin-bottom: 1rem; }
 /* ── Homepage hero ─────────────────────────────────────────────────── */
 .hero {
     padding: 1.75rem var(--h-pad) 2rem;
-    display: flex;
-    gap: 2.5rem;
-    align-items: stretch;
-}
-
-.hero-bio {
-    flex: 1;
-    min-width: 0;
-}
-
-.bio-headshot {
-    width: 200px;
-    flex-shrink: 0;
-    object-fit: cover;
-    border-radius: 8%;
-    align-self: stretch;
 }
 
 
