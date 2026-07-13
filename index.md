@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Home
+title: Home 𐫱 Pedro H. P. Rocha
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University."
 ---
 ## Bem-vindo!
@@ -19,7 +19,7 @@ I was born and raised in Brazil, where I was awarded degrees at the [Federal Uni
   <span class="pub-num">☛</span>
   <div class="pub-content">
     <p class="pub-title">{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</p>
-    <p class="pub-meta">{{ pub.authors }} 𐫱 <em>{{ pub.venue }}</em>.</p>
+    <p class="pub-meta">{{ pub.authors }}. <em>{{ pub.venue }}</em>.</p>
   </div>
 </div>
 {% endfor %}
