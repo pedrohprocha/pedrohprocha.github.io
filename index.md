@@ -5,6 +5,8 @@ description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Tex
 ---
 ## Bem-vindo!
 
+<img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of Pedro H. P. Rocha" class="bio-headshot">
+
 I am a [Ph.D. candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) in the College of Media & Communication at Texas Tech University. My research examines the role of emotions in political communication, focusing on how people's expectations about how a conversation will feel shape their willingness to talk about politics.
 
 My doctoral work is jointly funded by the [Fulbright Program](https://fulbright.org.br/) and the [Brazilian Federal Agency for Support and Evaluation of Graduate Education](https://www.gov.br/capes/en), along with several scholarships from Texas Tech. I work under the supervision of [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
