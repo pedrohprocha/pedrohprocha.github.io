@@ -46,7 +46,7 @@
 
   <section class="hero">
     <div class="hero-left">
-      <div class="hero-tile" aria-hidden="true"><span>P</span></div>
+      <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}" class="hero-headshot">
       <div class="hero-icons">
         {% if site.scholar %}<a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>{% endif %}
         {% if site.researchgate %}<a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a>{% endif %}

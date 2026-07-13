@@ -57,7 +57,6 @@
     --muted: #33333f;
     --dim:   #6b6b78;
 
-    /* Tile palette */
     --t1:  #E4402C;
     --t2:  #2E4FA3;
     --t3:  #F2B705;
@@ -76,7 +75,11 @@
 
     --rule-heavy: 3px solid var(--ink);
     --rule-mid:   2px solid var(--ink);
-    --rule-light: 1px solid rgba(26, 26, 46, 0.15);
+    --rule-light: 1px solid rgba(26, 26, 46, 0.14);
+
+    /* Consistent horizontal rhythm — header, content, and footer share this */
+    --h-pad: 3.5rem;
+    --max-w: 1120px;
 }
 
 /* ── Reset ─────────────────────────────────────────────────────────── */
@@ -85,8 +88,8 @@ html { font-size: 16px; }
 
 body {
     font-family: var(--hv);
-    font-size: 1.0625rem;
-    line-height: 1.65;
+    font-size: 1rem;
+    line-height: 1.7;
     background: var(--paper);
     color: var(--ink);
     display: flex;
@@ -94,7 +97,7 @@ body {
     min-height: 100vh;
 }
 
-img { max-width: 100%; }
+img { max-width: 100%; display: block; }
 
 a {
     color: var(--t2);
@@ -103,22 +106,36 @@ a {
 }
 a:hover { color: var(--t1); }
 
-p { margin-bottom: 1.1rem; }
+p { margin-bottom: 1rem; }
+
+/* ── Consistent-width container ────────────────────────────────────── */
+/* Header, hero, main, and footer are all capped at the same width so
+   the layout never widens past what the tile strip sits over. The strip
+   itself stays full-viewport as a visual frame. */
+.site-header,
+.hero,
+.site-main,
+.site-footer {
+    max-width: var(--max-w);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ── Site header ───────────────────────────────────────────────────── */
 .site-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.625rem 3.5rem;
+    padding: 1.5rem var(--h-pad);
     border-bottom: var(--rule-heavy);
 }
 
 .site-name {
     font-family: var(--sn);
     font-weight: 700;
-    font-size: 1.5rem;
-    letter-spacing: -0.01em;
+    font-size: 1.375rem;
+    letter-spacing: -0.015em;
     color: var(--ink);
     text-decoration: none;
 }
@@ -127,27 +144,30 @@ p { margin-bottom: 1.1rem; }
 .site-nav {
     display: flex;
     align-items: center;
-    gap: 1.75rem;
+    gap: 1.625rem;
 }
 .site-nav a {
-    font-size: 0.8125rem;
-    font-weight: 600;
-    letter-spacing: 0.06em;
+    font-family: var(--hv);
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--ink);
     text-decoration: none;
 }
 .site-nav a:hover { color: var(--t1); }
 .site-nav a.active {
+    font-weight: 700;
     border-bottom: 2px solid var(--ink);
-    padding-bottom: 2px;
+    padding-bottom: 1px;
 }
 
-/* ── Tile strip ────────────────────────────────────────────────────── */
+/* ── Tile strip — stays full-viewport width ────────────────────────── */
 .rocha-strip {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     height: 40px;
+    width: 100%;
 }
 .rocha-strip > div:nth-child(1)  { background: var(--t1); }
 .rocha-strip > div:nth-child(2)  { background: var(--t2); }
@@ -165,70 +185,66 @@ p { margin-bottom: 1.1rem; }
 /* ── Homepage hero ─────────────────────────────────────────────────── */
 .hero {
     display: grid;
-    grid-template-columns: 220px 1fr;
-    gap: 2.75rem;
-    padding: 3.5rem 3.5rem 2.5rem;
+    grid-template-columns: 200px 1fr;
+    gap: 3rem;
+    padding: 3.25rem var(--h-pad) 2.5rem;
     align-items: start;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1.375rem;
     align-items: flex-start;
 }
 
-.hero-tile {
-    width: 220px;
-    height: 220px;
-    background: var(--t2);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    container-type: inline-size;
+/* Headshot photo */
+.hero-headshot {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8%;
     flex-shrink: 0;
 }
-.hero-tile span {
-    font-family: var(--sn);
-    font-weight: 700;
-    font-size: 46cqw;
-    color: var(--paper);
-    line-height: 1;
-    letter-spacing: -0.02em;
-}
 
+/* Social links below headshot */
 .hero-icons {
     display: flex;
     flex-direction: column;
-    gap: 0.35rem;
+    gap: 0.3rem;
 }
 .hero-icons a {
-    font-size: 0.75rem;
-    font-weight: 600;
+    font-family: var(--hv);
+    font-size: 0.6875rem;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.07em;
     color: var(--muted);
     text-decoration: none;
 }
 .hero-icons a:hover { color: var(--t1); }
 
+/* Bio paragraphs — no max-width; the grid column controls the width */
 .hero-bio p {
-    font-size: 1.0625rem;
-    line-height: 1.65;
+    font-family: var(--hv);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.72;
     color: var(--ink);
-    max-width: 640px;
-    margin-bottom: 0.875rem;
+    margin-bottom: 0.9rem;
 }
 .hero-bio p:last-child { margin-bottom: 0; }
+.hero-bio em { font-style: italic; }
 
-/* Publications heading inside hero-bio — becomes a section break */
+/* "☛ Recent Publications" h2 rendered from index.md */
 .hero-bio h2 {
     font-family: var(--sn);
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 1.375rem;
     letter-spacing: -0.02em;
+    line-height: 1.1;
     color: var(--ink);
-    margin: 2.5rem 0 1.25rem;
+    margin: 2.5rem 0 1.125rem;
 }
 
 /* ── Homepage publications ─────────────────────────────────────────── */
@@ -239,7 +255,7 @@ p { margin-bottom: 1.1rem; }
 
 .pub-item {
     position: relative;
-    padding: 1.25rem 0 1.25rem 1.5rem;
+    padding: 1.125rem 0 1.125rem 1.375rem;
     border-top: var(--rule-mid);
 }
 .pub-item:last-child { border-bottom: var(--rule-mid); }
@@ -250,47 +266,53 @@ p { margin-bottom: 1.1rem; }
     left: 0;
     top: 0;
     bottom: 0;
-    width: 8px;
+    width: 7px;
     background: var(--t2);
 }
 .pub-item:nth-child(2n)::before { background: var(--t1); }
 .pub-item:nth-child(3n)::before { background: var(--t4); }
 
+/* Pub title uses Sentinel SSm — visually distinct from Helvetica body */
 .pub-title {
-    font-family: var(--hv);
-    font-size: 1.0625rem;
-    font-weight: 700;
-    line-height: 1.4;
-    margin-bottom: 0.3rem;
+    font-family: var(--sn);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+    margin-bottom: 0.25rem;
     color: var(--ink);
 }
 .pub-title a {
     color: var(--ink);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
 }
 .pub-title a:hover { color: var(--t1); text-decoration: underline; }
 
 .pub-authors {
+    font-family: var(--hv);
+    font-weight: 300;
     font-size: 0.875rem;
     color: var(--dim);
-    margin-bottom: 0.2rem;
+    margin-bottom: 0.15rem;
 }
 .pub-venue {
+    font-family: var(--hv);
+    font-weight: 300;
     font-size: 0.8125rem;
-    color: var(--dim);
     font-style: italic;
-    margin-bottom: 0.35rem;
+    color: var(--dim);
+    margin-bottom: 0.25rem;
 }
 
 .pub-links {
     display: flex;
     gap: 0.5rem;
-    margin-top: 0.35rem;
+    margin-top: 0.3rem;
 }
 .pub-links a {
+    font-family: var(--hv);
     font-size: 0.6875rem;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.06em;
     color: var(--t2);
@@ -305,10 +327,10 @@ p { margin-bottom: 1.1rem; }
     color: var(--paper);
 }
 
-/* End ornament after pub list */
+/* End ornament ✵ ✵ ✵ */
 .pub-list-home + p {
     text-align: center;
-    padding: 2rem 0 0.5rem;
+    padding: 1.875rem 0 0.375rem;
     color: var(--t1);
     margin-bottom: 0;
 }
@@ -316,79 +338,96 @@ p { margin-bottom: 1.1rem; }
 /* ── Inner page main ───────────────────────────────────────────────── */
 .site-main {
     flex: 1;
-    padding: 3rem 3.5rem 4rem;
+    padding: 3rem var(--h-pad) 4rem;
 }
 
+/* Page title: Sentinel SSm Bold — largest, heaviest weight in the system */
 .page-title {
     font-family: var(--sn);
     font-weight: 700;
-    font-size: 2.75rem;
-    letter-spacing: -0.02em;
+    font-size: 2.5rem;
+    letter-spacing: -0.025em;
     line-height: 1.05;
     color: var(--ink);
-    margin-bottom: 2.5rem;
-    padding-bottom: 1.25rem;
+    margin-bottom: 2.25rem;
+    padding-bottom: 1.125rem;
     border-bottom: var(--rule-heavy);
 }
 
 /* ── Content headings ──────────────────────────────────────────────── */
+
+/* h1: Sentinel SSm Bold — section-level divider within long pages */
 .site-main h1 {
     font-family: var(--sn);
     font-weight: 700;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     letter-spacing: -0.02em;
+    line-height: 1.15;
     color: var(--ink);
-    margin: 3rem 0 1rem;
-    padding-top: 2rem;
+    margin: 2.75rem 0 0.875rem;
+    padding-top: 1.75rem;
     border-top: var(--rule-heavy);
 }
-.site-main h1:first-child {
-    margin-top: 0; padding-top: 0; border-top: none;
-}
+.site-main h1:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 
+/* h2: Sentinel SSm Semibold — subsection head, border below */
 .site-main h2 {
     font-family: var(--sn);
-    font-weight: 700;
-    font-size: 1.3rem;
-    letter-spacing: -0.02em;
+    font-weight: 600;
+    font-size: 1.125rem;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
     color: var(--ink);
-    margin: 2.5rem 0 0.75rem;
-    padding-bottom: 0.5rem;
+    margin: 2.25rem 0 0.75rem;
+    padding-bottom: 0.4rem;
     border-bottom: var(--rule-mid);
 }
 .site-main h2:first-child { margin-top: 0; }
 
+/* h3: Helvetica Neue medium-weight uppercase — lower-level label */
 .site-main h3 {
     font-family: var(--hv);
-    font-weight: 700;
-    font-size: 0.9375rem;
-    color: var(--ink);
+    font-weight: 600;
+    font-size: 0.8125rem;
     text-transform: uppercase;
-    letter-spacing: 0.05em;
-    margin: 1.75rem 0 0.5rem;
+    letter-spacing: 0.07em;
+    color: var(--muted);
+    margin: 1.75rem 0 0.4rem;
 }
 
+/* h4: Helvetica Neue Light Italic — caption-level, lowest hierarchy */
 .site-main h4 {
     font-family: var(--hv);
-    font-weight: 400;
+    font-weight: 300;
     font-style: italic;
     font-size: 0.9375rem;
     color: var(--dim);
-    margin: 1.25rem 0 0.4rem;
+    margin: 1.125rem 0 0.35rem;
 }
 
-.site-main p { margin-bottom: 1.1rem; }
+/* Body copy in content area */
+.site-main p {
+    font-family: var(--hv);
+    font-weight: 400;
+    font-size: 0.9375rem;
+    line-height: 1.72;
+    margin-bottom: 1rem;
+}
 .site-main p:last-child { margin-bottom: 0; }
 
 .site-main a {
     color: var(--t2);
-    font-weight: 600;
+    font-weight: 500;
     text-decoration: underline;
     text-underline-offset: 2px;
 }
 .site-main a:hover { color: var(--t1); }
 
-.site-main li { margin-bottom: 0.5rem; }
+.site-main li {
+    font-size: 0.9375rem;
+    line-height: 1.65;
+    margin-bottom: 0.4rem;
+}
 .site-main li em { font-style: italic; }
 
 /* ── Blockquote ────────────────────────────────────────────────────── */
@@ -396,12 +435,12 @@ p { margin-bottom: 1.1rem; }
     border-left: 4px solid var(--t2);
     background: rgba(46, 79, 163, 0.05);
     margin: 1.75rem 0;
-    padding: 0.75rem 1.25rem 0.75rem 1.5rem;
+    padding: 0.75rem 1.25rem 0.75rem 1.375rem;
 }
 .site-main blockquote p {
-    color: var(--muted);
     font-style: italic;
-    margin-bottom: 0.5rem;
+    color: var(--muted);
+    margin-bottom: 0.4rem;
 }
 .site-main blockquote p:last-child { margin-bottom: 0; }
 
@@ -411,24 +450,24 @@ p { margin-bottom: 1.1rem; }
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.875rem;
     border-bottom: var(--rule-heavy);
 }
 .cv-updated {
     font-family: var(--hv);
     font-size: 0.75rem;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--dim);
 }
 
-.cv-section { margin-bottom: 0.5rem; }
+.cv-section { margin-bottom: 0.375rem; }
 
 .cv-entry {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: 2rem;
-    padding: 0.65rem 0;
+    padding: 0.6rem 0;
     border-bottom: var(--rule-light);
 }
 .cv-section .cv-entry:last-child { border-bottom: none; }
@@ -441,10 +480,11 @@ p { margin-bottom: 1.1rem; }
     color: var(--ink);
     flex: 1;
 }
+/* Year/dates on the right: Light weight, clearly subordinate */
 .cv-right {
     font-family: var(--hv);
     font-size: 0.8125rem;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--dim);
     text-align: right;
     white-space: nowrap;
@@ -453,13 +493,14 @@ p { margin-bottom: 1.1rem; }
 
 .cv-courses {
     list-style: none;
-    padding: 0 0 0.75rem;
+    padding: 0 0 0.625rem;
     margin: 0;
     border-bottom: var(--rule-light);
 }
 .cv-courses li {
     font-family: var(--hv);
     font-size: 0.9rem;
+    font-weight: 400;
     color: var(--ink);
     line-height: 1.7;
     padding-left: 1rem;
@@ -483,14 +524,16 @@ p { margin-bottom: 1.1rem; }
 
 /* ── Footer ────────────────────────────────────────────────────────── */
 .site-footer {
-    padding: 1.625rem 3.5rem;
+    padding: 1.5rem var(--h-pad);
     border-top: var(--rule-heavy);
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .site-footer p {
+    font-family: var(--hv);
     font-size: 0.8125rem;
+    font-weight: 300;
     color: var(--dim);
     margin-bottom: 0;
 }
@@ -509,39 +552,24 @@ p { margin-bottom: 1.1rem; }
 .footer-dots > div:nth-child(6) { background: var(--t6); }
 
 /* ── Responsive ────────────────────────────────────────────────────── */
-@media (max-width: 768px) {
-    .site-header {
-        padding: 1.25rem 1.5rem;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 1rem;
-    }
-    .site-nav { gap: 1rem; flex-wrap: wrap; }
+@media (max-width: 800px) {
+    :root { --h-pad: 1.5rem; }
+
+    .site-header { flex-direction: column; align-items: flex-start; gap: 1rem; }
+    .site-nav    { gap: 1rem; flex-wrap: wrap; }
 
     .hero {
         grid-template-columns: 1fr;
-        padding: 2rem 1.5rem 1.5rem;
-        gap: 1.75rem;
+        gap: 1.5rem;
+        padding-top: 2rem;
     }
-    .hero-left { flex-direction: row; align-items: flex-start; gap: 1.25rem; }
-    .hero-tile { width: 100px; height: 100px; }
+    .hero-left       { flex-direction: row; align-items: flex-start; gap: 1.25rem; }
+    .hero-headshot   { width: 100px; height: 100px; }
 
-    .site-main {
-        padding: 2rem 1.5rem 3rem;
-    }
-    .page-title { font-size: 2rem; }
+    .page-title      { font-size: 2rem; }
 
-    .cv-entry {
-        flex-direction: column;
-        gap: 0.25rem;
-        align-items: flex-start;
-    }
-    .cv-right { text-align: left; }
+    .cv-entry        { flex-direction: column; gap: 0.2rem; align-items: flex-start; }
+    .cv-right        { text-align: left; }
 
-    .site-footer {
-        padding: 1.25rem 1.5rem;
-        flex-direction: column;
-        gap: 1rem;
-        align-items: flex-start;
-    }
+    .site-footer     { flex-direction: column; gap: 1rem; align-items: flex-start; }
 }
