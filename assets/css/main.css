@@ -216,6 +216,19 @@ p { margin-bottom: 1rem; }
     padding: 1.75rem var(--h-pad) 2rem;
 }
 
+.bio-headshot {
+    float: right;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8%;
+    margin: 0 0 1.25rem 2rem;
+}
+
+.hero-bio {
+    display: flow-root;
+}
+
 
 /* Bio paragraphs — no max-width; the grid column controls the width */
 .hero-bio p {
