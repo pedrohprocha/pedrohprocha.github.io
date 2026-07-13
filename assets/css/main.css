@@ -214,7 +214,7 @@ p { margin-bottom: 1rem; }
 .hero-icons {
     display: flex;
     flex-direction: column;
-    gap: 0.65rem;
+    gap: 0.9rem;
 }
 .hero-icons a {
     font-family: var(--hv);
