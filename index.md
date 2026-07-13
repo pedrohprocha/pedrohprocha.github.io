@@ -19,7 +19,7 @@ I was born and raised in Brazil, where I studied at the [Federal University of M
   <span class="pub-num">0{{ forloop.index }}</span>
   <div class="pub-content">
     <p class="pub-title">{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</p>
-    <p class="pub-meta">{{ pub.authors }} · {{ pub.venue }}</p>
+    <p class="pub-meta">{{ pub.authors }} ✵ {{ pub.venue }}</p>
   </div>
 </div>
 {% endfor %}
