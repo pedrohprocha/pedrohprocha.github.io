@@ -32,13 +32,22 @@
 
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-name">{{ site.title }}</a>
-    <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
-      <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
-      <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
-      <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Teaching</a>
-      <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>Replication Data</a>
-    </nav>
+    <div class="header-right">
+      <div class="header-icons">
+        {% if site.scholar %}<a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar">{% include icon-scholar.svg %}</a>{% endif %}
+        {% if site.researchgate %}<a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">{% include icon-researchgate.svg %}</a>{% endif %}
+        {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">{% include icon-orcid.svg %}</a>{% endif %}
+        {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">{% include icon-linkedin.svg %}</a>{% endif %}
+        {% if site.bluesky %}<a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">{% include icon-bluesky.svg %}</a>{% endif %}
+      </div>
+      <nav class="site-nav">
+        <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
+        <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
+        <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
+        <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Teaching</a>
+        <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>Replication Data</a>
+      </nav>
+    </div>
   </header>
 
   <div class="rocha-strip" aria-hidden="true">

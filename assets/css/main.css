@@ -144,6 +144,32 @@ p { margin-bottom: 1rem; }
 }
 .site-name:hover { color: var(--t1); }
 
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 0.875rem;
+    padding-right: 1.75rem;
+    border-right: 1px solid rgba(26, 26, 46, 0.2);
+}
+.header-icons a {
+    display: flex;
+    align-items: center;
+    color: var(--dim);
+    text-decoration: none;
+    line-height: 0;
+}
+.header-icons a svg {
+    width: 16px;
+    height: 16px;
+}
+.header-icons a:hover { color: var(--t1); }
+
 .site-nav {
     display: flex;
     align-items: center;
@@ -210,22 +236,6 @@ p { margin-bottom: 1rem; }
     flex-shrink: 0;
 }
 
-/* Social links below headshot */
-.hero-icons {
-    display: flex;
-    flex-direction: column;
-    gap: 0.9rem;
-}
-.hero-icons a {
-    font-family: var(--hv);
-    font-size: 0.6875rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.07em;
-    color: var(--muted);
-    text-decoration: none;
-}
-.hero-icons a:hover { color: var(--t1); }
 
 /* Bio paragraphs — no max-width; the grid column controls the width */
 .hero-bio p {
