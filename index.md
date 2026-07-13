@@ -16,9 +16,10 @@ I was born and raised in Brazil, where I studied at the [Federal University of M
 <div class="pub-list-home">
 {% for pub in site.data.publications.peer_reviewed limit:2 %}
 <div class="pub-item">
-  <p class="pub-title">{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}, {{ pub.authors }}</p>
-  <p class="pub-venue">{{ pub.venue }}</p>
-  <div class="pub-links">
+  <span class="pub-num">0{{ forloop.index }}</span>
+  <div class="pub-content">
+    <p class="pub-title">{% if pub.doi %}<a href="{{ pub.doi }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</p>
+    <p class="pub-meta">{{ pub.authors }} · {{ pub.venue }}</p>
   </div>
 </div>
 {% endfor %}

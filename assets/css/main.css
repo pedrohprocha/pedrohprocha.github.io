@@ -257,55 +257,51 @@ p { margin-bottom: 1rem; }
 }
 
 .pub-item {
-    position: relative;
-    padding: 0.5rem 0 0.5rem 1.375rem;
-    border-top: var(--rule-mid);
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.25rem 0;
+    border-top: var(--rule-light);
 }
-.pub-item:last-child { border-bottom: var(--rule-mid); }
+.pub-item:last-child { border-bottom: var(--rule-light); }
 
-.pub-item::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 7px;
-    background: var(--t2);
+.pub-num {
+    font-family: var(--sn);
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 1;
+    color: var(--t3);
+    flex-shrink: 0;
+    width: 2.5rem;
+    padding-top: 0.1rem;
 }
-.pub-item:nth-child(2n)::before { background: var(--t1); }
-.pub-item:nth-child(3n)::before { background: var(--t4); }
 
-/* Pub title uses Sentinel SSm — visually distinct from Helvetica body */
+.pub-content {
+    flex: 1;
+    min-width: 0;
+}
+
 .pub-title {
     font-family: var(--sn);
-    font-weight: 600;
-    font-size: 0.9375rem;
-    line-height: 0.5;
-    margin-bottom: 0.15rem;
+    font-weight: 700;
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    margin-bottom: 0.3rem;
     color: var(--ink);
 }
 .pub-title a {
-    color: var(--t2);
+    color: var(--ink);
     text-decoration: underline;
-    text-underline-offset: 2px;
-    font-weight: 600;
+    text-underline-offset: 3px;
+    font-weight: 700;
 }
 .pub-title a:hover { color: var(--t1); }
 
-.pub-authors {
+.pub-meta {
     font-family: var(--hv);
     font-weight: 300;
     font-size: 0.875rem;
-    line-height: 0.5;
-    color: var(--dim);
-    margin-bottom: 0.1rem;
-}
-.pub-venue {
-    font-family: var(--hv);
-    font-weight: 300;
-    font-size: 0.8125rem;
-    line-height: 0.5;
-    font-style: italic;
+    line-height: 1.4;
     color: var(--dim);
     margin-bottom: 0;
 }
