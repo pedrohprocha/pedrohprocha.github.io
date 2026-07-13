@@ -7,9 +7,9 @@ description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Tex
 
 I'm a [doctoral candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) at the College of Media & Communication at Texas Tech University, currently working on research that explores how emotions can motivate people to engage in political conversations.
 
-My doctoral work is funded by a joint fellowship from the [Fulbright Program](https://fulbright.org.br/) and the [Brazilian state agency for higher education, <span style="font-variant:small-caps;">Capes</span>](https://www.gov.br/capes/en), as well as several scholarships from Texas Tech. My advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
+My doctoral work is funded by a joint fellowship from the [Fulbright Program](https://fulbright.org.br/) and the [Brazilian Federal Agency for Support and Evaluation of Graduate Education, <span style="font-variant:small-caps;">Capes</span>](https://www.gov.br/capes/en), as well as several scholarships from Texas Tech. My advisor is [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
 
-I was born and raised in Brazil, where I studied at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy watching movies and hiking with my partner and our little morky, Diesel.
+I was born and raised in Brazil, where I studied at the [University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy watching movies and hiking with my partner and our little morkie, Diesel.
 
 ## ☛ Recent Publications
 
