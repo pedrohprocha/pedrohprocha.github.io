@@ -247,7 +247,7 @@ p { margin-bottom: 1rem; }
     letter-spacing: -0.02em;
     line-height: 1.1;
     color: var(--ink);
-    margin: 2.5rem 0 1.125rem;
+    margin: 1.75rem 0 0.75rem;
 }
 
 /* ── Homepage publications ─────────────────────────────────────────── */
@@ -258,7 +258,7 @@ p { margin-bottom: 1rem; }
 
 .pub-item {
     position: relative;
-    padding: 0.75rem 0 0.75rem 1.375rem;
+    padding: 0.5rem 0 0.5rem 1.375rem;
     border-top: var(--rule-mid);
 }
 .pub-item:last-child { border-bottom: var(--rule-mid); }
