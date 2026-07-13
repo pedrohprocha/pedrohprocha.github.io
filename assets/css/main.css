@@ -300,7 +300,7 @@ p { margin-bottom: 1rem; }
 }
 .pub-title a:hover { color: var(--t1); }
 
-.pub-meta {
+.pub-item .pub-meta {
     font-family: var(--hv);
     font-weight: 300;
     font-size: 0.875rem;
