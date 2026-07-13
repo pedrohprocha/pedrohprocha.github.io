@@ -5,10 +5,8 @@ permalink: /research/
 description: "Research by Pedro H. P. Rocha on political communication and celebrity politics."
 ---
 
-Generally speaking, I'm interested in the different political dynamics mediated by communication in everyday life. Within this area, I have spearheaded or collaborated in projects that analyzed celebrity politics, audiences in social media, and the celebritization of politics.
-> As of May 2026, my dissertation work is focused on understanding the cognitive and affective factors that influence the occurrence of political conversations.
+My research is mainly driven by my interest in the diverse political dynamics of everyday life that are mediated by communication. Within this area, I have led or collaborated in projects examining celebrity politics, social media audiences, and the celebritization of politics.
 
-My Google Scholar profile is accessible [here](https://scholar.google.com/citations?user=LBnOt9wAAAAJ&hl=en).
 
 ## ☛ Peer-reviewed papers
 

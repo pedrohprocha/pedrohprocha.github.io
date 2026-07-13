@@ -109,10 +109,9 @@ a:hover { color: var(--t1); }
 p { margin-bottom: 1rem; }
 
 /* ── Consistent-width container ────────────────────────────────────── */
-/* Header, hero, main, and footer are all capped at the same width so
-   the layout never widens past what the tile strip sits over. The strip
-   itself stays full-viewport as a visual frame. */
-.site-header,
+/* Hero, main, and footer are capped at max-width and centered.
+   The header stays full-viewport-width so its border-bottom spans edge to
+   edge; content alignment is handled via padding instead (see below). */
 .hero,
 .site-main,
 .site-footer {
@@ -123,11 +122,15 @@ p { margin-bottom: 1rem; }
 }
 
 /* ── Site header ───────────────────────────────────────────────────── */
+/* Full-viewport-width so border-bottom spans the whole screen.
+   Horizontal padding matches the max-width sections at any viewport:
+   at wide viewports, padding grows to keep content aligned with hero/main;
+   at narrow viewports, falls back to --h-pad. */
 .site-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem var(--h-pad);
+    padding: 1.5rem max(var(--h-pad), calc((100vw - var(--max-w)) / 2 + var(--h-pad)));
     border-bottom: var(--rule-heavy);
 }
 
@@ -277,7 +280,7 @@ p { margin-bottom: 1rem; }
     font-family: var(--sn);
     font-weight: 600;
     font-size: 0.9375rem;
-    line-height: 1.1;
+    line-height: 0.5;
     margin-bottom: 0.15rem;
     color: var(--ink);
 }
@@ -293,7 +296,7 @@ p { margin-bottom: 1rem; }
     font-family: var(--hv);
     font-weight: 300;
     font-size: 0.875rem;
-    line-height: 0.9;
+    line-height: 0.5;
     color: var(--dim);
     margin-bottom: 0.1rem;
 }
@@ -301,7 +304,7 @@ p { margin-bottom: 1rem; }
     font-family: var(--hv);
     font-weight: 300;
     font-size: 0.8125rem;
-    line-height: 0.9;
+    line-height: 0.5;
     font-style: italic;
     color: var(--dim);
     margin-bottom: 0;
