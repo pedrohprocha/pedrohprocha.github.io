@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University."
 ---

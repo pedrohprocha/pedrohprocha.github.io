@@ -3,9 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>
-    {% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}
-  </title>
+  <title>{{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   {% seo %}
   <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
@@ -33,11 +31,11 @@
   <header class="site-header">
     <a href="{{ '/' | relative_url }}" class="site-name">{{ site.title }}</a>
     <nav class="site-nav">
-      <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
-      <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
-      <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
-      <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Teaching</a>
-      <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>Replication Data</a>
+      <a href="{{ '/' | relative_url }}" class="active">Home</a>
+      <a href="{{ '/cv' | relative_url }}">CV</a>
+      <a href="{{ '/research' | relative_url }}">Research</a>
+      <a href="{{ '/courses' | relative_url }}">Teaching</a>
+      <a href="{{ '/data' | relative_url }}">Replication Data</a>
     </nav>
   </header>
 
@@ -46,10 +44,21 @@
     <div></div><div></div><div></div><div></div><div></div><div></div>
   </div>
 
-  <main class="site-main">
-    <h1 class="page-title">{{ page.title }}</h1>
-    {{ content }}
-  </main>
+  <section class="hero">
+    <div class="hero-left">
+      <div class="hero-tile" aria-hidden="true"><span>P</span></div>
+      <div class="hero-icons">
+        {% if site.scholar %}<a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>{% endif %}
+        {% if site.researchgate %}<a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a>{% endif %}
+        {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>{% endif %}
+        {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>{% endif %}
+        {% if site.bluesky %}<a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer">Bluesky</a>{% endif %}
+      </div>
+    </div>
+    <div class="hero-bio">
+      {{ content }}
+    </div>
+  </section>
 
   <footer class="site-footer">
     <p>© 2026 {{ site.title }}</p>
