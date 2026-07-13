@@ -260,7 +260,7 @@ p { margin-bottom: 1rem; }
     font-weight: 700;
     font-size: 1.1rem;
     line-height: 1;
-    color: var(--t3);
+    color: var(--t1);
     flex-shrink: 0;
     width: 1.5rem;
     padding-top: 0.2rem;
@@ -291,7 +291,7 @@ p { margin-bottom: 1rem; }
     font-family: var(--hv);
     font-weight: 300;
     font-size: 0.875rem;
-    line-height: 1.4;
+    line-height: 1;
     color: var(--dim);
     margin-bottom: 0;
 }
