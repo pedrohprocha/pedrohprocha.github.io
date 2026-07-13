@@ -1,0 +1,100 @@
+/* ===================================================================
+   Pedro H. P. Rocha — visual identity
+   Drop this file in your Jekyll assets (e.g. assets/css/identity.css)
+   and link it from _includes/head.html:
+     <link rel="stylesheet" href="{{ '/assets/css/identity.css' | relative_url }}">
+   =================================================================== */
+
+:root {
+  /* type */
+  --font-serif: 'Sentinel SSm', Georgia, 'Times New Roman', serif;   /* headings, mark — licensed font, see README */
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;        /* body, nav, citations */
+
+  /* ink */
+  --ink: #1A1A2E;
+  --paper: #F4F1EA;
+
+  /* palette — 12 tile colors */
+  --rocha-red: #E4402C;
+  --xingu-blue: #2E4FA3;
+  --ipe-yellow: #F2B705;
+  --mata-green: #3C8C4A;
+  --orchid: #A6A6E0;
+  --flamingo: #F2A0C9;
+  --tucano-orange: #F2661C;
+  --sky: #7FC7E8;
+  --cream: #F5E6C8;
+  --amethyst: #7A4FA3;
+  --mint: #8FD9B6;
+  --coral: #F26D6D;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--paper);
+  color: var(--ink);
+  margin: 0;
+}
+
+h1, h2, h3, .rocha-mark {
+  font-family: var(--font-serif);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+a { color: var(--xingu-blue); }
+a:hover { color: var(--rocha-red); }
+
+/* ---------------------------------------------------------------
+   Tile strip — thin colored band, e.g. under the site header.
+   Markup:
+     <div class="rocha-strip">
+       <div></div><div></div><div></div>... (one div per tile; any count)
+     </div>
+   Colors cycle automatically via nth-child.
+   --------------------------------------------------------------- */
+.rocha-strip {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 32px;
+}
+.rocha-strip > div:nth-child(12n+1)  { background: var(--rocha-red); }
+.rocha-strip > div:nth-child(12n+2)  { background: var(--xingu-blue); }
+.rocha-strip > div:nth-child(12n+3)  { background: var(--ipe-yellow); }
+.rocha-strip > div:nth-child(12n+4)  { background: var(--mata-green); }
+.rocha-strip > div:nth-child(12n+5)  { background: var(--orchid); }
+.rocha-strip > div:nth-child(12n+6)  { background: var(--flamingo); }
+.rocha-strip > div:nth-child(12n+7)  { background: var(--tucano-orange); }
+.rocha-strip > div:nth-child(12n+8)  { background: var(--sky); }
+.rocha-strip > div:nth-child(12n+9)  { background: var(--cream); }
+.rocha-strip > div:nth-child(12n+10) { background: var(--amethyst); }
+.rocha-strip > div:nth-child(12n+11) { background: var(--mint); }
+.rocha-strip > div:nth-child(12n+12) { background: var(--coral); }
+
+/* ---------------------------------------------------------------
+   Mark tile — a single colored square with one initial (P, H, P, R).
+   Markup: <div class="rocha-tile rocha-tile--blue">P</div>
+   Size it with width/height wherever it's used (nav mark, favicon
+   preview, business card).
+   --------------------------------------------------------------- */
+.rocha-tile {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-serif);
+  font-weight: 900;
+  color: var(--paper);
+  line-height: 1;
+}
+.rocha-tile--red     { background: var(--rocha-red); }
+.rocha-tile--blue    { background: var(--xingu-blue); }
+.rocha-tile--yellow  { background: var(--ipe-yellow); color: var(--ink); }
+.rocha-tile--green   { background: var(--mata-green); }
+.rocha-tile--orchid  { background: var(--orchid); color: var(--ink); }
+.rocha-tile--pink    { background: var(--flamingo); color: var(--ink); }
+.rocha-tile--orange  { background: var(--tucano-orange); }
+.rocha-tile--sky     { background: var(--sky); color: var(--ink); }
+.rocha-tile--cream   { background: var(--cream); color: var(--ink); }
+.rocha-tile--purple  { background: var(--amethyst); }
+.rocha-tile--mint    { background: var(--mint); color: var(--ink); }
+.rocha-tile--coral   { background: var(--coral); color: var(--ink); }

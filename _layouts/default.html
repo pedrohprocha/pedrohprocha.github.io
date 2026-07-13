@@ -6,9 +6,10 @@
   <title>
     {% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}
   </title>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/identity.css' | relative_url }}">
   {% seo %}
-  <link rel="icon" type="image/x-icon" href="{{ '/favicon.svg' | relative_url }}">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -48,6 +49,7 @@
           <img src="{{ '/assets/headshot.jpg' | relative_url }}" alt="Photo of {{ site.title }}" class="headshot-sm">
         <h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
         <nav>
+            <div class="rocha-tile rocha-tile--blue" style="width:44px; height:44px; font-size:24px;">P</div>
           <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>HOME</a>
           <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
           <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>RESEARCH</a>
@@ -56,6 +58,10 @@
           <!-- a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Courses</a -->
           <!-- a href="{{ '/blog' | relative_url }}"{% if page.url contains 'blog' or page.layout == 'post' %} class="active"{% endif %}>THOUGHTS</a -->
         </nav>
+        <div class="rocha-strip" aria-hidden="true">
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div><div></div>
+        </div>
         <hr class="sidebar-rule">
         <address class="sidebar-address">
           <span class="institution">College of Media &amp; Communication,<br>
