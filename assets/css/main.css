@@ -213,27 +213,7 @@ p { margin-bottom: 1rem; }
 
 /* ── Homepage hero ─────────────────────────────────────────────────── */
 .hero {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    gap: 3rem;
     padding: 3.25rem var(--h-pad) 2.5rem;
-    align-items: start;
-}
-
-.hero-left {
-    display: flex;
-    flex-direction: column;
-    gap: 1.375rem;
-    align-items: flex-start;
-}
-
-/* Headshot photo */
-.hero-headshot {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8%;
-    flex-shrink: 0;
 }
 
 
