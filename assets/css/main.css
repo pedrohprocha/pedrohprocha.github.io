@@ -239,7 +239,7 @@ p { margin-bottom: 1rem; }
 .hero-bio p:last-child { margin-bottom: 0; }
 .hero-bio em { font-style: italic; }
 
-/* "☛ Recent Publications" h2 rendered from index.md */
+/* "Recent Publications" h2 rendered from index.md */
 .hero-bio h2 {
     font-family: var(--sn);
     font-weight: 700;
@@ -509,7 +509,7 @@ p { margin-bottom: 1rem; }
     position: relative;
 }
 .cv-courses li::before {
-    content: "☛";
+    content: "–";
     position: absolute;
     left: 0;
     font-size: 0.6rem;

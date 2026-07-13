@@ -11,7 +11,7 @@ My doctoral work is funded by a joint fellowship from the [Fulbright Program](ht
 
 I was born and raised in Brazil, where I studied at the [Federal University of Minas Gerais](https://www.ufmg.br/international/about-the-ufmg/). Outside of academia, I enjoy traveling and spending time in nature alongisde my partner and our little morkie, Diesel.
 
-## ☛ Recent Publications
+## Recent Publications
 
 <div class="pub-list-home">
 {% for pub in site.data.publications.peer_reviewed limit:2 %}
