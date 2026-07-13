@@ -238,6 +238,8 @@ p { margin-bottom: 1rem; }
     line-height: 1.1;
     color: var(--ink);
     margin: 1.75rem 0 0.75rem;
+    padding-left: 0.8rem;
+    border-left: 4px solid var(--t2);
 }
 
 /* ── Homepage publications ─────────────────────────────────────────── */
