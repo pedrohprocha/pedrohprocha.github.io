@@ -5,9 +5,9 @@ permalink: /cv/
 description: "Curriculum vitae of Pedro H. P. Rocha, Ph.D. candidate at Texas Tech University and Fulbright fellow."
 ---
 
-The most recent version (Dec 2025) of my CV  is available as a PDF [here]({{ '/assets/files/cv_pedrohprocha_25.pdf' | relative_url }}). And my ORCID is [0000-0002-2762-9891](https://orcid.org/0000-0002-2762-9891).
+The most recent version (June 2025) of my CV  is available as a PDF [here]({{ '/assets/files/cv_pedrohprocha_25.pdf' | relative_url }}). And my ORCID is [0000-0002-2762-9891](https://orcid.org/0000-0002-2762-9891).
 
-A [much more comprehensive version](http://lattes.cnpq.br/8720377365114820) of my career is available in English and Portuguese at the <span style="font-variant:small-caps;">Lattes</span> database from the National Council for Scientific and Technological Development <span style="font-variant:small-caps;">(CNPq)</span> of Brazil.
+A [comprehensive version](http://lattes.cnpq.br/8720377365114820) of my academic and professional career is available in English and Portuguese in the Lattes database of the National Council for Scientific and Technological Development of Brazil (CNPq).
 
 <br><br>
 <p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>
