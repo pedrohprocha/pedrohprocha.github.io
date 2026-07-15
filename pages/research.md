@@ -28,7 +28,7 @@ My research is mainly driven by my interest in the diverse political dynamics of
 
 <span style="color:#E4402C">☛</span> "As políticas de Anitta: Dinâmicas interacionais (des)politizadas entre uma celebridade e atores sociais," Master's thesis, 2023. Advisor: [Dr. Paula Guimaraes Simoes](https://scholar.google.com/citations?user=Ccd4zLcAAAAJ&hl). (Portuguese only).
 
-<span style="color:#E4402C">☛</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl) (Portuguese only).
+<span style="color:#E4402C">☛</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl). (Portuguese only).
 
 <br><br>
 <p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>
