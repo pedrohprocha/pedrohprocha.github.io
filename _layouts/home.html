@@ -37,6 +37,7 @@
         {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">{% include icon-linkedin.svg %}</a>{% endif %}
         {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID">{% include icon-orcid.svg %}</a>{% endif %}
         {% if site.bluesky %}<a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky">{% include icon-bluesky.svg %}</a>{% endif %}
+        {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email">{% include icon-email.svg %}</a>{% endif %}
       </div>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}" class="active">Home</a>
