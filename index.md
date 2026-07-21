@@ -13,7 +13,7 @@ My research currently examines the role of emotions in political communication, 
 
 Prior to moving West, I received a bachelor’s and a master’s degree in Communication from the [Federal University of Minas Gerais](http://www.ppgcom.fafich.ufmg.br/indexi.php), where I was affiliated with the [Image and Sociability](https://www.fafich.ufmg.br/gris/) and the [Media and Public Sphere](https://grupoemeblog.wordpress.com/) research groups. 
 
-Outside of academia, I enjoy traveling to national parks and spending time in nature alongisde my fiancé and our little morkie, Diesel.
+Outside of academia, I enjoy traveling to national parks and spending time in nature alongside my partner and our little morkie, Diesel.
 
 ## Recent Publications
 

@@ -100,11 +100,11 @@ body {
 img { max-width: 100%; display: block; }
 
 a {
-    color: var(--t2);
+    color: var(--t8);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
-a:hover { color: var(--t1); }
+a:hover { color: var(--t7); }
 
 p { margin-bottom: 1rem; }
 
