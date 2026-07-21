@@ -100,7 +100,7 @@ body {
 img { max-width: 100%; display: block; }
 
 a {
-    color: var(--t8);
+    color: var(--t2);
     text-decoration: underline;
     text-underline-offset: 2px;
 }
