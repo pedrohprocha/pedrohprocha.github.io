@@ -7,7 +7,7 @@ description: "Curriculum vitae of Pedro H. P. Rocha, Ph.D. candidate in Media & 
 
 <div class="cv-meta">
   <span class="cv-updated">Updated December 2025</span>
-  <a href="{{ '/assets/files/cv_pedrohprocha_25.pdf' | relative_url }}">Download PDF</a>
+  <a href="{{ '/assets/files/cv_pedrocha.pdf' | relative_url }}">Download PDF</a>
 </div>
 
 ## Education
