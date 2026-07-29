@@ -224,10 +224,9 @@ p { margin-bottom: 1rem; }
 
 .bio-headshot {
     float: right;
-    width: 180px;
-    height: 255px;
+    width: 200px;
     object-fit: cover;
-    object-position: center top;
+    object-position: center;
     margin: 0 0 1.25rem 2rem;
 }
 
