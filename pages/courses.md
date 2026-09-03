@@ -4,7 +4,7 @@ title: TEACHING
 permalink: /courses/
 ---
 
-Below is a list of courses I have taught across the College of Media & Communication at Texas Tech University and the College of Philosophy and Human Sciences at the University of Minas Gerais.
+Below is a list of courses I have taught across the Texas Tech University College of Media & Communication and the Federal University of Minas Gerais College of Philosophy and Human Sciences.
 
 
 # Texas Tech University (2023-present)
