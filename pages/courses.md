@@ -6,7 +6,6 @@ permalink: /courses/
 
 Below is a list of courses I have taught across the Texas Tech University College of Media & Communication and the Federal University of Minas Gerais College of Philosophy and Human Sciences.
 
-
 # Texas Tech University (2023-present)
 
 ### <span style="color:#E4402C">☛</span> PCOM 4373 Digital Media and Professional Communication Capstone

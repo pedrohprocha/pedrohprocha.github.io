@@ -5,21 +5,21 @@ permalink: /research/
 description: "Research by Pedro H. P. Rocha on political communication and celebrity politics."
 ---
 
-## Dynamics of Political Talk
+# Dynamics of Political Talk
 
 A pressing issue in contemporary Western democracies is affective polarization, and interpersonal political communication has been touted as a potential remedy against the deepening divide in certain societies. However, many barriers stand in the way of productive political talk as idealized by deliberative scholars. Alongside my collaborators, I investigate the psychological mechanisms behind people's aversion to political talk.
 
-# Research Outputs
+## Research Outputs
 
 <span style="color:#E4402C">☛</span> A Waste of Time? Partisan Deliberative Bias as a Barrier to Political Crosstalk, with Bryan McLaughlin and Nathaniel Geiger. *Political Behavior*, 2025. [Open access.](https://doi.org/10.1007/s11109-025-10068-w)
 
-## Celebrity Politics and the Celebritization of Politics
+# Celebrity Politics and the Celebritization of Politics
 
 Political manifestations of celebrities acquired an important role in the 2010s, mainly driven by social media platforms and the new-found agency and sociability practices of celebrity audiences in those spaces. At the same pace, elected politicians have incorporated elements of celebrity culture into their public images to reach disaffected citizens. 
 
 At the Image and Sociability reseach group, I analyzed the dynamics between celebrities, audiences, mass media, and politicians around key political events in Brazil.
 
-# Research Outputs
+## Research Outputs
 
 <span style="color:#E4402C">☛</span> "*Celebrity Activism as Discursive Representation: A Case Study of the Brazilian Singer Daniela Mercury and LGBTQ rights in Brazil*," with Regiane Garcêz. Available at [Bloomsbury Publishing](https://www.bloomsbury.com/us/audience-interactions-in-contemporary-celebrity-culture-9781666922431/), 2025.
 
