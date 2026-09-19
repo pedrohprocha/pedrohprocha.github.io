@@ -452,7 +452,7 @@
     <h2>Please RSVP</h2>
     <p class="lede">Answer by early October at the latest.</p>
 
-    <a class="btn" id="rsvpLink" href="QUALTRICS-LINK"><span>Say you'll be there</span></a>
+    <a class="btn" id="rsvpLink" href="https://qualtricsxmks3t8s8fv.qualtrics.com/jfe/form/SV_0IYHHoVhcv522YS"><span>Say you'll be there</span></a>
     <p class="aside">Opens the form in the same tab. Takes a minute.</p>
   </div>
 
@@ -465,7 +465,7 @@
 // Puts the name in the headline and passes it to Qualtrics as
 // the embedded-data field "guest".
 (function () {
-  var FORM = "QUALTRICS-LINK";           // Qualtrics anonymous link
+  var FORM = "https://qualtricsxmks3t8s8fv.qualtrics.com/jfe/form/SV_0IYHHoVhcv522YS";           // Qualtrics anonymous link
 
   var name = (new URLSearchParams(location.search).get("to") || "")
                .replace(/[^\p{L}\p{M}\s'’.-]/gu, "").trim().slice(0, 32);
