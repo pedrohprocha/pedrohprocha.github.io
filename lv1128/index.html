@@ -2,21 +2,20 @@
 <!--
   ============================================================
   BEFORE YOU PUSH
-  1. RSVP ........ RSVP_BASE and RSVP_FALLBACK in the script below
-                   (also the button's href on the page)
-  2. Dinner ...... the time in the "After" row
-  3. Contact ..... the colophon line at the bottom
+  1. RSVP ........ QUALTRICS-LINK — the button's href and FORM
+                   in the script below. Use the anonymous link
+                   from Distributions.
+  2. Contact ..... the colophon line, if you want one
   4. Preview ..... save a screenshot of the poster as preview.png
                    beside this file. og:url and og:image below assume
                    the folder is /lv1128/ — change both if you rename it.
 
   PERSONALIZED LINKS
-  Send each guest  ?to=Marcus&k=THEIRCODE
-    to  = the name shown in the headline
-    k   = their LibreWeddingPlanner invitation code, appended
-          to RSVP_BASE to build their personal RSVP link
-  Either param can be left off. No k, and the button falls back
-  to the shared RSVP link. No to, and the headline stays generic.
+  Send each guest  ?to=Marcus
+  The name goes in the headline and rides along to Qualtrics
+  as the embedded-data field "guest", so the form opens already
+  knowing who they are. Two words: ?to=Maria%20Clara (or a +).
+  Leave the param off and the page stays generic — nothing breaks.
 
   TYPE
   Jost throughout — a Futura revival, the 1950s poster
@@ -453,8 +452,8 @@
     <h2>Please RSVP</h2>
     <p class="lede">Answer by early October at the latest.</p>
 
-    <a class="btn" id="rsvpLink" href="RSVP-LINK"><span>Say you'll be there</span></a>
-    <p class="aside">Opens our RSVP page. Your answers go straight to the guest list.</p>
+    <a class="btn" id="rsvpLink" href="QUALTRICS-LINK"><span>Say you'll be there</span></a>
+    <p class="aside">Opens the form in the same tab. Takes a minute.</p>
   </div>
 
 </div>
@@ -462,23 +461,23 @@
 </div>
 
 <script>
-// Personalized links:  ?to=Marcus&k=THEIRCODE
-//   to = name shown in the headline
-//   k  = LibreWeddingPlanner invitation code, appended to RSVP_BASE
+// Personalized links:  ?to=Marcus
+// Puts the name in the headline and passes it to Qualtrics as
+// the embedded-data field "guest".
 (function () {
-  var RSVP_BASE     = "RSVP-LINK";   // per-guest base, must end in /
-  var RSVP_FALLBACK = "RSVP-LINK";   // shared link, used when k is missing
+  var FORM = "QUALTRICS-LINK";           // Qualtrics anonymous link
 
-  var q    = new URLSearchParams(location.search);
-  var name = (q.get("to") || "").replace(/[^\p{L}\p{M}\s'’.-]/gu, "").trim().slice(0, 32);
-  var code = (q.get("k")  || "").replace(/[^A-Za-z0-9_-]/g, "").slice(0, 64);
+  var name = (new URLSearchParams(location.search).get("to") || "")
+               .replace(/[^\p{L}\p{M}\s'’.-]/gu, "").trim().slice(0, 32);
+  var url  = FORM;
 
   if (name) {
     document.getElementById("guest").textContent = name + ", ";
     document.getElementById("askText").textContent = "will you come?";
     document.title = name + " — you're invited";
+    url = FORM + (FORM.indexOf("?") > -1 ? "&" : "?") + "guest=" + encodeURIComponent(name);
   }
-  document.getElementById("rsvpLink").href = code ? RSVP_BASE + code : RSVP_FALLBACK;
+  document.getElementById("rsvpLink").href = url;
 })();
 </script>
 </body>
