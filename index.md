@@ -7,6 +7,8 @@ description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Tex
 
 <img src="{{ '/assets/headshot_2.jpeg' | relative_url }}" alt="Photo of Pedro H. P. Rocha" class="bio-headshot">
 
+{% include profile-links.html %}
+
 <div class="intro-text" markdown="1">
 
 ## Bem-vindo!
