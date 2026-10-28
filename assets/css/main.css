@@ -239,7 +239,15 @@ em { font-style: italic; }
 
 /* ☛ markers and the ✵ ✵ ✵ ornament */
 .mark { color: var(--green); margin-right: 3px; }
-.site-main > p[style*="center"] { margin-top: 40px; }
+/* ✵ ✵ ✵ ornament: centered across the full page width on every page,
+   on the same axis as the footer's copyright line */
+main.site-main > p.ornament {
+    grid-column: 1 / -1;
+    max-width: none;
+    text-align: center;
+    color: var(--green);
+    margin: 48px 0 0;
+}
 
 /* ── Home: headshot in the margin column beside the greeting and bio ── */
 .intro {
@@ -365,7 +373,7 @@ em { font-style: italic; }
     padding-bottom: 40px;
     border-top: 1px solid var(--ink);
 }
-.site-footer p { font-size: 0.8125rem; color: var(--muted); margin-bottom: 0; }
+.site-footer p { font-size: 0.8125rem; color: var(--muted); text-align: center; margin-bottom: 0; }
 
 /* ── Responsive: below ~860px the margin column folds in ───────────── */
 @media (max-width: 860px) {

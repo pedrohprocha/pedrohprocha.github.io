@@ -34,4 +34,4 @@ At the Image and Sociability research group, I analyzed the dynamics between cel
 <span class="mark">☛</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl). (Portuguese only).
 
 <br><br>
-<p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>
+<p class="ornament"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>

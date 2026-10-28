@@ -40,4 +40,4 @@ When I'm not working, I enjoy traveling to national parks and spending time in n
 {% endfor %}
 </div>
 
-<p style="text-align: center;"><span class="text-rust"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></span></p>
+<p class="ornament"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
