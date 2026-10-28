@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CV
+hide_title: true
 permalink: /cv/
 description: "Curriculum vitae of Pedro H. P. Rocha, Ph.D. candidate at Texas Tech University and Fulbright fellow."
 ---

@@ -9,7 +9,6 @@ Jekyll site for GitHub Pages, served at [pedrocha.com](https://pedrocha.com).
 - `_data/publications.yml` — publication list used on the home page
 - `pages/research.md` — Research projects
 - `pages/courses.md` — Teaching
-- `pages/data.md` — Replication materials
 - `pages/cv.md` — CV page (embeds the PDF at `assets/files/cv_pedrocha.pdf`)
 - `pages/vitae.md` — HTML version of the CV (not linked in the menu)
 - `pages/blog.md` — Blog index (not linked in the menu)
