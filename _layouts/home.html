@@ -29,44 +29,13 @@
 
 <body>
 
-  <header class="site-header">
-    <a href="{{ '/' | relative_url }}" class="site-name">{{ site.title }}</a>
-    <div class="header-right">
-      <div class="header-icons">
-        {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email" class="icon-email">{% include icon-email.svg %}</a>{% endif %}
-        {% if site.scholar %}<a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" class="icon-scholar">{% include icon-scholar.svg %}</a>{% endif %}
-        {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="icon-linkedin">{% include icon-linkedin.svg %}</a>{% endif %}
-        {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" class="icon-orcid">{% include icon-orcid.svg %}</a>{% endif %}
-        {% if site.researchgate %}<a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate" class="icon-researchgate">{% include icon-researchgate.svg %}</a>{% endif %}
-        {% if site.bluesky %}<a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky" class="icon-bluesky">{% include icon-bluesky.svg %}</a>{% endif %}
-      </div>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}" class="active">Home</a>
-        <a href="{{ '/cv' | relative_url }}">CV</a>
-        <a href="{{ '/research' | relative_url }}">Research</a>
-        <a href="{{ '/courses' | relative_url }}">Teaching</a>
-        <a href="{{ '/data' | relative_url }}"> Data</a>
-      </nav>
-    </div>
-  </header>
+{% include header.html %}
 
-  <div class="rocha-strip" aria-hidden="true">
-    <div></div><div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div><div></div>
-  </div>
+  <main class="wrap site-main hero">
+    {{ content }}
+  </main>
 
-  <section class="hero">
-    <div class="hero-bio">
-      {{ content }}
-    </div>
-  </section>
-
-  <footer class="site-footer">
-    <p>© 2026 {{ site.title }}</p>
-    <div class="footer-dots" aria-hidden="true">
-      <div></div><div></div><div></div><div></div><div></div><div></div>
-    </div>
-  </footer>
+{% include footer.html %}
 
 </body>
 </html>

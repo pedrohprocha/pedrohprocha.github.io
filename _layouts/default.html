@@ -31,43 +31,14 @@
 
 <body>
 
-  <header class="site-header">
-    <a href="{{ '/' | relative_url }}" class="site-name">{{ site.title }}</a>
-    <div class="header-right">
-      <div class="header-icons">
-        {% if site.email %}<a href="mailto:{{ site.email }}" aria-label="Email" class="icon-email">{% include icon-email.svg %}</a>{% endif %}
-        {% if site.scholar %}<a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar" class="icon-scholar">{% include icon-scholar.svg %}</a>{% endif %}
-        {% if site.linkedin %}<a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="icon-linkedin">{% include icon-linkedin.svg %}</a>{% endif %}
-        {% if site.orcid %}<a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer" aria-label="ORCID" class="icon-orcid">{% include icon-orcid.svg %}</a>{% endif %}
-        {% if site.researchgate %}<a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate" class="icon-researchgate">{% include icon-researchgate.svg %}</a>{% endif %}
-        {% if site.bluesky %}<a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer" aria-label="Bluesky" class="icon-bluesky">{% include icon-bluesky.svg %}</a>{% endif %}
-      </div>
-      <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}"{% if page.url == "/" %} class="active"{% endif %}>Home</a>
-        <a href="{{ '/cv' | relative_url }}"{% if page.url contains 'cv' and page.url != '/vitae/' %} class="active"{% endif %}>CV</a>
-        <a href="{{ '/research' | relative_url }}"{% if page.url contains 'research' %} class="active"{% endif %}>Research</a>
-        <a href="{{ '/courses' | relative_url }}"{% if page.url contains 'courses' %} class="active"{% endif %}>Teaching</a>
-        <a href="{{ '/data' | relative_url }}"{% if page.url contains 'data' %} class="active"{% endif %}>Data</a>
-      </nav>
-    </div>
-  </header>
+{% include header.html %}
 
-  <div class="rocha-strip" aria-hidden="true">
-    <div></div><div></div><div></div><div></div><div></div><div></div>
-    <div></div><div></div><div></div><div></div><div></div><div></div>
-  </div>
-
-  <main class="site-main">
+  <main class="wrap site-main">
     <h1 class="page-title">{{ page.title }}</h1>
     {{ content }}
   </main>
 
-  <footer class="site-footer">
-    <p>© 2026 {{ site.title }}</p>
-    <div class="footer-dots" aria-hidden="true">
-      <div></div><div></div><div></div><div></div><div></div><div></div>
-    </div>
-  </footer>
+{% include footer.html %}
 
 </body>
 </html>

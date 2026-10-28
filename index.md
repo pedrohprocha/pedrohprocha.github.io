@@ -3,9 +3,13 @@ layout: home
 title: Pedro H. P. Rocha | Political Psychology and Communication
 description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Texas Tech University specialized in the role of emotions in political communication."
 ---
-## Bem-vindo!
+<div class="intro" markdown="1">
 
 <img src="{{ '/assets/headshot_2.jpeg' | relative_url }}" alt="Photo of Pedro H. P. Rocha" class="bio-headshot">
+
+<div class="intro-text" markdown="1">
+
+## Bem-vindo!
 
 I am a [Ph.D. candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) and Fulbright fellow at the Texas Tech University College of Media & Communication.
 
@@ -16,6 +20,9 @@ My research revolves around the different roles media and communication plays in
 Prior to moving West, I received a bachelor’s and a master’s degree in Communication from the [Federal University of Minas Gerais, Brazil](http://www.ppgcom.fafich.ufmg.br/indexi.php), where I collaborated in the [Image and Sociability](https://www.fafich.ufmg.br/gris/) and the [Media and Public Sphere](https://grupoemeblog.wordpress.com/) research groups. 
 
 When I'm not working, I enjoy traveling to national parks and spending time in nature with my fiancé and our little morkie, <a href="{{ '/assets/diesel.jpeg' | relative_url }}">Diesel</a>.
+
+</div>
+</div>
 
 ## Recent Publications
 
