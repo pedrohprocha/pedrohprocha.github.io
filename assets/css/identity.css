@@ -7,8 +7,8 @@
 
 :root {
   /* type */
-  --font-serif: 'Diplomat', Georgia, 'Times New Roman', serif;   /* headings, mark — licensed font, see README */
-  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;        /* body, nav, citations */
+  --font-serif: 'Helvetica Neue', Helvetica, Arial, sans-serif;   /* headings, mark — licensed font, see README */
+  --font-sans: 'Diplomat', Georgia, 'Times New Roman', serif;        /* body, nav, citations */
 
   /* ink */
   --ink: #1A1A2E;

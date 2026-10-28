@@ -68,8 +68,8 @@
     --t11: #8FD9B6;
     --t12: #F26D6D;
 
-    --sn: "Diplomat", Georgia, "Times New Roman", serif;
-    --hv: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-head: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-body: "Diplomat", Georgia, "Times New Roman", serif;
 
     --rule-heavy: 3px solid var(--ink);
     --rule-mid:   2px solid var(--ink);
@@ -85,7 +85,7 @@
 html { font-size: 16px; }
 
 body {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 1rem;
     line-height: 1.7;
     background: var(--paper);
@@ -133,7 +133,7 @@ p { margin-bottom: 1rem; }
 }
 
 .site-name {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.375rem;
     letter-spacing: -0.015em;
@@ -180,7 +180,7 @@ p { margin-bottom: 1rem; }
     gap: 1.625rem;
 }
 .site-nav a {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: 0.08em;
@@ -235,7 +235,7 @@ p { margin-bottom: 1rem; }
 
 /* Bio paragraphs — no max-width; the grid column controls the width */
 .hero-bio p {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.72;
@@ -247,7 +247,7 @@ p { margin-bottom: 1rem; }
 
 /* "Recent Publications" h2 rendered from index.md */
 .hero-bio h2 {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.375rem;
     letter-spacing: -0.02em;
@@ -272,7 +272,7 @@ p { margin-bottom: 1rem; }
 .pub-item:last-child { border-bottom: var(--rule-light); }
 
 .pub-num {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.1rem;
     line-height: 1;
@@ -288,7 +288,7 @@ p { margin-bottom: 1rem; }
 }
 
 .pub-title {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.0625rem;
     line-height: 1;
@@ -304,7 +304,7 @@ p { margin-bottom: 1rem; }
 .pub-title a:hover { color: var(--t1); }
 
 .pub-item .pub-meta {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-weight: 300;
     font-size: 0.875rem;
     line-height: 1;
@@ -318,7 +318,7 @@ p { margin-bottom: 1rem; }
     margin-top: 0.3rem;
 }
 .pub-links a {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.6875rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -349,9 +349,9 @@ p { margin-bottom: 1rem; }
     padding: 3rem var(--h-pad) 4rem;
 }
 
-/* Page title: Diplomat Bold — largest, heaviest weight in the system */
+/* Page title: Helvetica Neue Bold — largest, heaviest weight in the system */
 .page-title {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 2.5rem;
     letter-spacing: -0.025em;
@@ -364,9 +364,9 @@ p { margin-bottom: 1rem; }
 
 /* ── Content headings ──────────────────────────────────────────────── */
 
-/* h1: Diplomat Bold — section-level divider within long pages */
+/* h1: Helvetica Neue Bold — section-level divider within long pages */
 .site-main h1 {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 700;
     font-size: 1.5rem;
     letter-spacing: -0.02em;
@@ -378,9 +378,9 @@ p { margin-bottom: 1rem; }
 }
 .site-main h1:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 
-/* h2: Diplomat Bold — subsection head, border below */
+/* h2: Helvetica Neue Bold — subsection head, border below */
 .site-main h2 {
-    font-family: var(--sn);
+    font-family: var(--font-head);
     font-weight: 600;
     font-size: 1.125rem;
     letter-spacing: -0.01em;
@@ -394,7 +394,7 @@ p { margin-bottom: 1rem; }
 
 /* h3: Helvetica Neue medium-weight uppercase — lower-level label */
 .site-main h3 {
-    font-family: var(--hv);
+    font-family: var(--font-head);
     font-weight: 600;
     font-size: 0.8125rem;
     text-transform: uppercase;
@@ -405,7 +405,7 @@ p { margin-bottom: 1rem; }
 
 /* h4: Helvetica Neue Light Italic — caption-level, lowest hierarchy */
 .site-main h4 {
-    font-family: var(--hv);
+    font-family: var(--font-head);
     font-weight: 300;
     font-style: italic;
     font-size: 0.9375rem;
@@ -415,7 +415,7 @@ p { margin-bottom: 1rem; }
 
 /* Body copy in content area */
 .site-main p {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-weight: 400;
     font-size: 0.9375rem;
     line-height: 1.72;
@@ -462,7 +462,7 @@ p { margin-bottom: 1rem; }
     border-bottom: var(--rule-heavy);
 }
 .cv-updated {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 300;
     color: var(--dim);
@@ -481,7 +481,7 @@ p { margin-bottom: 1rem; }
 .cv-section .cv-entry:last-child { border-bottom: none; }
 
 .cv-left {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.9375rem;
     font-weight: 400;
     line-height: 1.6;
@@ -490,7 +490,7 @@ p { margin-bottom: 1rem; }
 }
 /* Year/dates on the right: Light weight, clearly subordinate */
 .cv-right {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 300;
     color: var(--dim);
@@ -506,7 +506,7 @@ p { margin-bottom: 1rem; }
     border-bottom: var(--rule-light);
 }
 .cv-courses li {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.9rem;
     font-weight: 400;
     color: var(--ink);
@@ -539,7 +539,7 @@ p { margin-bottom: 1rem; }
     justify-content: space-between;
 }
 .site-footer p {
-    font-family: var(--hv);
+    font-family: var(--font-body);
     font-size: 0.8125rem;
     font-weight: 300;
     color: var(--dim);
