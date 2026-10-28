@@ -9,7 +9,7 @@ description: "Pedro H. P. Rocha is a Ph.D. candidate and Fulbright fellow at Tex
 
 I am a [Ph.D. candidate](https://www.depts.ttu.edu/comc/faculty/faculty/procha.php) and Fulbright fellow at the Texas Tech University College of Media & Communication.
 
-My work is jointly funded by a award from the [Fulbright Program](https://fulbright.org.br/) and the [Ministry of Education of Brazil](https://www.gov.br/capes/en), and my dissertation is being supervised by [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
+My work is jointly funded by an award from the [Fulbright Program](https://fulbright.org.br/) and the [Ministry of Education of Brazil](https://www.gov.br/capes/en), and my dissertation is being supervised by [Dr. Bryan McLaughlin](https://www.depts.ttu.edu/comc/faculty/faculty/bmclaughlin.php).
 
 My research revolves around the different roles media and communication plays in everyday politics, and I employ quantitative and qualitative methods in my inquiries. Currently, I am investigating the role of people's expectations about their future emotional states (i.e., [affective forecasting](https://dictionary.apa.org/affective-forecasting)) on their motivations to talk politics with others.
 

@@ -17,7 +17,7 @@ A pressing issue in contemporary Western democracies is affective polarization, 
 
 Political manifestations of celebrities acquired an important role in the 2010s, mainly driven by social media platforms and the new-found agency and sociability practices of celebrity audiences in those spaces. At the same pace, elected politicians have incorporated elements of celebrity culture into their public images to reach disaffected citizens. 
 
-At the Image and Sociability reseach group, I analyzed the dynamics between celebrities, audiences, mass media, and politicians around key political events in Brazil.
+At the Image and Sociability research group, I analyzed the dynamics between celebrities, audiences, mass media, and politicians around key political events in Brazil.
 
 ## Research Outputs
 
