@@ -56,7 +56,7 @@
     --rule:  #dcdcdc;
     --paper: #ffffff;
 
-    /* The only color on the site: links and ornaments */
+    /* The only color on the site: links and ☛ markers */
     --green:      #2e6b4e;
     --green-dark: #1d4a35;
 
@@ -83,9 +83,6 @@ body {
     line-height: 1.6;
     background: var(--paper);
     color: var(--text);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
 }
 
 img { max-width: 100%; display: block; }
@@ -154,15 +151,15 @@ em { font-style: italic; }
 
 /* ── Main grid: margin column for section headings + text column ──── */
 .site-main {
-    flex: 1;
     display: grid;
     grid-template-columns: var(--label) minmax(0, var(--measure));
     column-gap: var(--gap);
     align-items: start;
-    align-content: start;   /* short pages: don't spread rows to fill the screen */
     padding-top: 64px;
-    padding-bottom: 88px;
+    padding-bottom: 64px;
 }
+.site-main > :last-child,
+.site-main > :last-child > :last-child { margin-bottom: 0; }
 /* Text before any section heading starts at the left edge, under the page
    title; everything after a section heading sits in the text column. */
 .site-main > * { grid-column: 1 / -1; max-width: var(--measure); min-width: 0; }
@@ -237,17 +234,8 @@ em { font-style: italic; }
 
 .site-main li { line-height: 1.6; margin-bottom: 0.4rem; }
 
-/* ☛ markers and the ✵ ✵ ✵ ornament */
+/* ☛ markers */
 .mark { color: var(--green); margin-right: 3px; }
-/* ✵ ✵ ✵ ornament: centered across the full page width on every page,
-   on the same axis as the footer's copyright line */
-main.site-main > p.ornament {
-    grid-column: 1 / -1;
-    max-width: none;
-    text-align: center;
-    color: var(--green);
-    margin: 48px 0 0;
-}
 
 /* ── Home: headshot in the margin column beside the greeting and bio ── */
 .intro {

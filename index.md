@@ -39,5 +39,3 @@ When I'm not working, I enjoy traveling to national parks and spending time in n
 </div>
 {% endfor %}
 </div>
-
-<p class="ornament"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>

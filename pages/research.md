@@ -32,6 +32,3 @@ At the Image and Sociability research group, I analyzed the dynamics between cel
 <span class="mark">☛</span> "*Política de celebridades como representação política não-eleitoral: um estudo de caso sobre Daniela Mercury e seus públicos*," with Regiane Garcêz. Presented at the Communication and Democracy division at the IX <span style="font-variant:small-caps;">Compolítica</span> Conference in 2021. Free download at the [<span style="font-variant:small-caps;">Compolítica</span> Archives](https://compolitica.org//novo/anais/2021/gt3/7.pdf).
 
 <span class="mark">☛</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl). (Portuguese only).
-
-<br><br>
-<p class="ornament"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>

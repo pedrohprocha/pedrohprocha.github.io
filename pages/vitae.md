@@ -139,6 +139,3 @@ Interviewed by Exame Magazine, Radio UFMG Educativa, Rede Minas, and TV UFMG.
 - Reviewer, International Communication Association, 2024.
 - Organization, 9th Conference of the Brazilian Political Communication Association, 2021.
 - Organization, Pint of Science Festival, 2020.
-
-<br><br>
-<p class="ornament"><strong>✵ &nbsp; ✵ &nbsp; ✵</strong></p>
