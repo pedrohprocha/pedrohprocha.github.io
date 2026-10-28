@@ -68,7 +68,8 @@
     --t11: #8FD9B6;
     --t12: #F26D6D;
 
-    --font-head: "Diplomat", Georgia, "Times New Roman", serif;
+    --font-brand: "Diplomat", Georgia, "Times New Roman", serif;
+    --font-head: "Helvetica Neue", Helvetica, Arial, sans-serif;
     --font-body: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     --rule-heavy: 3px solid var(--ink);
@@ -133,7 +134,7 @@ p { margin-bottom: 1rem; }
 }
 
 .site-name {
-    font-family: var(--font-head);
+    font-family: var(--font-brand);
     font-weight: 700;
     font-size: 1.375rem;
     letter-spacing: -0.015em;
@@ -180,7 +181,7 @@ p { margin-bottom: 1rem; }
     gap: 1.625rem;
 }
 .site-nav a {
-    font-family: var(--font-body);
+    font-family: var(--font-brand);
     font-size: 0.75rem;
     font-weight: 500;
     letter-spacing: 0.08em;
@@ -349,7 +350,7 @@ p { margin-bottom: 1rem; }
     padding: 3rem var(--h-pad) 4rem;
 }
 
-/* Page title: Diplomat Bold — largest, heaviest weight in the system */
+/* Page title: Helvetica Neue Bold — largest, heaviest weight in the system */
 .page-title {
     font-family: var(--font-head);
     font-weight: 700;
@@ -364,7 +365,7 @@ p { margin-bottom: 1rem; }
 
 /* ── Content headings ──────────────────────────────────────────────── */
 
-/* h1: Diplomat Bold — section-level divider within long pages */
+/* h1: Helvetica Neue Bold — section-level divider within long pages */
 .site-main h1 {
     font-family: var(--font-head);
     font-weight: 700;
@@ -378,7 +379,7 @@ p { margin-bottom: 1rem; }
 }
 .site-main h1:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 
-/* h2: Diplomat Bold — subsection head, border below */
+/* h2: Helvetica Neue Bold — subsection head, border below */
 .site-main h2 {
     font-family: var(--font-head);
     font-weight: 600;
