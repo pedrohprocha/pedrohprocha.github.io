@@ -1,53 +1,51 @@
 /* ── Fonts ─────────────────────────────────────────────────────────── */
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Light.ttf") format("truetype");
-    font-weight: 300; font-style: normal;
-}
-@font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Light Italic.ttf") format("truetype");
-    font-weight: 300; font-style: italic;
-}
-@font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Book.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_Regular.woff2") format("woff2");
     font-weight: 400; font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Book Italic.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_Italic.woff2") format("woff2");
     font-weight: 400; font-style: italic;
+    font-display: swap;
 }
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Medium.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_Medium.woff2") format("woff2");
     font-weight: 500; font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Medium Italic.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_MediumItalic.woff2") format("woff2");
     font-weight: 500; font-style: italic;
+    font-display: swap;
 }
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Semibold.ttf") format("truetype");
-    font-weight: 600; font-style: normal;
-}
-@font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Semibold Italic.ttf") format("truetype");
-    font-weight: 600; font-style: italic;
-}
-@font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Bold.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_Bold.woff2") format("woff2");
     font-weight: 700; font-style: normal;
+    font-display: swap;
 }
 @font-face {
-    font-family: "Sentinel SSm";
-    src: url("/assets/fonts/Sentinel SSm Bold Italic.ttf") format("truetype");
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_BoldItalic.woff2") format("woff2");
     font-weight: 700; font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_Black.woff2") format("woff2");
+    font-weight: 900; font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Diplomat";
+    src: url("/assets/fonts/DiplomatST_BlackItalic.woff2") format("woff2");
+    font-weight: 900; font-style: italic;
+    font-display: swap;
 }
 
 /* ── Tokens ────────────────────────────────────────────────────────── */
@@ -70,7 +68,7 @@
     --t11: #8FD9B6;
     --t12: #F26D6D;
 
-    --sn: "Sentinel SSm", Georgia, "Times New Roman", serif;
+    --sn: "Diplomat", Georgia, "Times New Roman", serif;
     --hv: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
     --rule-heavy: 3px solid var(--ink);
@@ -351,7 +349,7 @@ p { margin-bottom: 1rem; }
     padding: 3rem var(--h-pad) 4rem;
 }
 
-/* Page title: Sentinel SSm Bold — largest, heaviest weight in the system */
+/* Page title: Diplomat Bold — largest, heaviest weight in the system */
 .page-title {
     font-family: var(--sn);
     font-weight: 700;
@@ -366,7 +364,7 @@ p { margin-bottom: 1rem; }
 
 /* ── Content headings ──────────────────────────────────────────────── */
 
-/* h1: Sentinel SSm Bold — section-level divider within long pages */
+/* h1: Diplomat Bold — section-level divider within long pages */
 .site-main h1 {
     font-family: var(--sn);
     font-weight: 700;
@@ -380,7 +378,7 @@ p { margin-bottom: 1rem; }
 }
 .site-main h1:first-child { margin-top: 0; padding-top: 0; border-top: none; }
 
-/* h2: Sentinel SSm Semibold — subsection head, border below */
+/* h2: Diplomat Bold — subsection head, border below */
 .site-main h2 {
     font-family: var(--sn);
     font-weight: 600;
