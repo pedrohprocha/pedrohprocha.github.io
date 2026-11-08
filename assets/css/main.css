@@ -93,7 +93,11 @@
     --rule:  #dcdcdc;
     --paper: #ffffff;
 
-    /* The only color on the site: links and ☛ markers */
+    /* Links: Wikipedia's standard colors */
+    --link:         #3366CC;
+    --link-visited: #795CB2;
+
+    /* Accent for ☞ markers and small details */
     --green:      #2e6b4e;
     --green-dark: #1d4a35;
 
@@ -125,13 +129,14 @@ body {
 img { max-width: 100%; display: block; }
 
 a {
-    color: var(--green);
+    color: var(--link);
     text-decoration: underline;
-    text-decoration-color: rgba(46, 107, 78, 0.35);
+    text-decoration-color: rgba(51, 102, 204, 0.35);
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
-a:hover { color: var(--green-dark); text-decoration-color: currentColor; }
+a:visited { color: var(--link-visited); text-decoration-color: rgba(121, 92, 178, 0.35); }
+a:hover { text-decoration-color: currentColor; }
 
 p { margin-bottom: 1em; }
 em { font-style: italic; }
@@ -316,7 +321,7 @@ em { font-style: italic; }
 .profile-icon.icon-orcid        { color: #A6CE39; }
 .profile-icon.icon-bluesky      { color: #0085FF; }
 .profile-icon.icon-researchgate { color: #00CCBB; }
-.profile-links a:hover { color: var(--green); }
+.profile-links a:hover { color: var(--link); }
 .intro-text > :last-child { margin-bottom: 0; }
 .intro-text h2 {
     font-family: var(--font-head);
