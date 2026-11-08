@@ -299,16 +299,18 @@ em { font-style: italic; }
 .profile-links a {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     padding: 7px 0;
-    font-size: 0.9375rem;
+    font-size: 1.0625rem;
+    font-variant-caps: all-small-caps;   /* Arno's true small caps */
+    letter-spacing: 0.04em;
     color: var(--text);
     text-decoration: none;
 }
-.profile-links a::after { content: "↗"; color: var(--muted); font-size: 0.75rem; }
-.profile-links a[href^="mailto:"]::after { content: "→"; }
+.profile-icon { display: flex; color: var(--muted); }
+.profile-icon svg { width: 14px; height: 14px; }
 .profile-links a:hover,
-.profile-links a:hover::after { color: var(--green); }
+.profile-links a:hover .profile-icon { color: var(--green); }
 .intro-text > :last-child { margin-bottom: 0; }
 .intro-text h2 {
     font-family: var(--font-head);

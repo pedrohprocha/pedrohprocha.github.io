@@ -1,8 +1,8 @@
 <ul class="profile-links">
-  {% if site.email %}<li><a href="mailto:{{ site.email }}">Email</a></li>{% endif %}
-  {% if site.scholar %}<li><a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a></li>{% endif %}
-  {% if site.linkedin %}<li><a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>{% endif %}
-  {% if site.orcid %}<li><a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a></li>{% endif %}
-  {% if site.researchgate %}<li><a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer">ResearchGate</a></li>{% endif %}
-  {% if site.bluesky %}<li><a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer">Bluesky</a></li>{% endif %}
+  {% if site.email %}<li><a href="mailto:{{ site.email }}"><span>Email</span><span class="profile-icon" aria-hidden="true">{% include icon-email.svg %}</span></a></li>{% endif %}
+  {% if site.linkedin %}<li><a href="{{ site.linkedin }}" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span class="profile-icon" aria-hidden="true">{% include icon-linkedin.svg %}</span></a></li>{% endif %}
+  {% if site.scholar %}<li><a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer"><span>Google Scholar</span><span class="profile-icon" aria-hidden="true">{% include icon-scholar.svg %}</span></a></li>{% endif %}
+  {% if site.orcid %}<li><a href="{{ site.orcid }}" target="_blank" rel="noopener noreferrer"><span>ORCID</span><span class="profile-icon" aria-hidden="true">{% include icon-orcid.svg %}</span></a></li>{% endif %}
+  {% if site.bluesky %}<li><a href="{{ site.bluesky }}" target="_blank" rel="noopener noreferrer"><span>Bluesky</span><span class="profile-icon" aria-hidden="true">{% include icon-bluesky.svg %}</span></a></li>{% endif %}
+  {% if site.researchgate %}<li><a href="{{ site.researchgate }}" target="_blank" rel="noopener noreferrer"><span>ResearchGate</span><span class="profile-icon" aria-hidden="true">{% include icon-researchgate.svg %}</span></a></li>{% endif %}
 </ul>
