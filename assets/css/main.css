@@ -94,8 +94,7 @@
     --paper: #ffffff;
 
     /* Links: Wikipedia's standard colors */
-    --link:         #3366CC;
-    --link-visited: #795CB2;
+    --link:         #3366CC;   /* same color whether visited or not */
 
     /* Accent for ☞ markers and small details */
     --green:      #2e6b4e;
@@ -135,7 +134,6 @@ a {
     text-decoration-thickness: 1px;
     text-underline-offset: 3px;
 }
-a:visited { color: var(--link-visited); text-decoration-color: rgba(121, 92, 178, 0.35); }
 a:hover { text-decoration-color: currentColor; }
 
 p { margin-bottom: 1em; }
