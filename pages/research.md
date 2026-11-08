@@ -1,19 +1,22 @@
 ---
 layout: default
 title: RESEARCH PROJECTS
+hide_title: true
 permalink: /research/
 description: "Research by Pedro H. P. Rocha on political communication and celebrity politics."
 ---
 
-# Dynamics of Political Talk
+# Dynamics of Political Talk (2024-present)
 
 A pressing issue in contemporary Western democracies is affective polarization, and interpersonal political communication has been touted as a potential remedy against the deepening divide in certain societies. However, many barriers stand in the way of productive political talk as idealized by deliberative scholars. Alongside my collaborators, I investigate the psychological mechanisms behind people's aversion to political talk.
 
 ## Research Outputs
 
-<span class="mark">☛</span> A Waste of Time? Partisan Deliberative Bias as a Barrier to Political Crosstalk, with Bryan McLaughlin and Nathaniel Geiger. *Political Behavior*, 2025. [Open access.](https://doi.org/10.1007/s11109-025-10068-w)
+<span class="mark">☞</span> Feeling It Before It Happens: The Influence of Affective Forecasting on Willingness to Engage in Political Talk, with Bryan McLaughlin. Presented for the Political Communication division at the *2026 AEJMC Conference*, New Orleans.
 
-# Celebrity Politics and the Celebritization of Politics
+<span class="mark">☞</span> A Waste of Time? Partisan Deliberative Bias as a Barrier to Political Crosstalk, with Bryan McLaughlin and Nathaniel Geiger. *Political Behavior*, 2025. [Open access.](https://doi.org/10.1007/s11109-025-10068-w)
+
+# Celebrity Politics and the Celebritization of Politics (2017-2023)
 
 Political manifestations of celebrities acquired an important role in the 2010s, mainly driven by social media platforms and the new-found agency and sociability practices of celebrity audiences in those spaces. At the same pace, elected politicians have incorporated elements of celebrity culture into their public images to reach disaffected citizens. 
 
@@ -21,14 +24,14 @@ At the Image and Sociability research group, I analyzed the dynamics between cel
 
 ## Research Outputs
 
-<span class="mark">☛</span> "*Celebrity Activism as Discursive Representation: A Case Study of the Brazilian Singer Daniela Mercury and LGBTQ rights in Brazil*," with Regiane Garcêz. Available at [Bloomsbury Publishing](https://www.bloomsbury.com/us/audience-interactions-in-contemporary-celebrity-culture-9781666922431/), 2025.
+<span class="mark">☞</span> "*Celebrity Activism as Discursive Representation: A Case Study of the Brazilian Singer Daniela Mercury and LGBTQ rights in Brazil*," with Regiane Garcêz. Available at [Bloomsbury Publishing](https://www.bloomsbury.com/us/audience-interactions-in-contemporary-celebrity-culture-9781666922431/), 2025.
 
-<span class="mark">☛</span> "As políticas de Anitta: Dinâmicas interacionais (des)politizadas entre uma celebridade e atores sociais," Master's thesis, 2023. Advisor: [Dr. Paula Guimaraes Simoes](https://scholar.google.com/citations?user=Ccd4zLcAAAAJ&hl). (Portuguese only).
+<span class="mark">☞</span> "As políticas de Anitta: Dinâmicas interacionais (des)politizadas entre uma celebridade e atores sociais," Master's thesis, 2023. Advisor: [Dr. Paula Guimaraes Simoes](https://scholar.google.com/citations?user=Ccd4zLcAAAAJ&hl). (Portuguese only).
 
-<span class="mark">☛</span> Is the Celebrity Political? Movements of Politicisation and Depoliticisation between the Brazilian Singer Anitta and her Publics, with Paula Simões. *Revista Eco-Pós*, 2021. [Open access.](https://doi.org/10.29146/ecopos.v24i2.27702)
+<span class="mark">☞</span> Is the Celebrity Political? Movements of Politicisation and Depoliticisation between the Brazilian Singer Anitta and her Publics, with Paula Simões. *Revista Eco-Pós*, 2021. [Open access.](https://doi.org/10.29146/ecopos.v24i2.27702)
 
-<span class="mark">☛</span> "*As políticas de Anitta*" and "*Celebridades em tempos de Covid-19*", free download at [Selo PPGCOM UFMG Press](https://seloppgcomufmg.com.br/colecoes/diario-da-quarentena/), 2021.
+<span class="mark">☞</span> "*As políticas de Anitta*" and "*Celebridades em tempos de Covid-19*", free download at [Selo PPGCOM UFMG Press](https://seloppgcomufmg.com.br/colecoes/diario-da-quarentena/), 2021.
 
-<span class="mark">☛</span> "*Política de celebridades como representação política não-eleitoral: um estudo de caso sobre Daniela Mercury e seus públicos*," with Regiane Garcêz. Presented at the Communication and Democracy division at the IX <span style="font-variant:small-caps;">Compolítica</span> Conference in 2021. Free download at the [<span style="font-variant:small-caps;">Compolítica</span> Archives](https://compolitica.org//novo/anais/2021/gt3/7.pdf).
+<span class="mark">☞</span> "*Política de celebridades como representação política não-eleitoral: um estudo de caso sobre Daniela Mercury e seus públicos*," with Regiane Garcêz. Presented for the Communication and Democracy division at the IX <span style="font-variant:small-caps;">Compolítica</span> Conference in 2021. Free download at the [<span style="font-variant:small-caps;">Compolítica</span> Archives](https://compolitica.org//novo/anais/2021/gt3/7.pdf).
 
-<span class="mark">☛</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl). (Portuguese only).
+<span class="mark">☞</span> "Política de celebridades como representação política não eleitoral: uma investigação sobre Daniela Mercury e seus públicos," Undergraduate thesis, 2021. Advisor: [Dr. Regiane Garcez](https://scholar.google.com/citations?user=SLHpoP0AAAAJ&hl). (Portuguese only).
