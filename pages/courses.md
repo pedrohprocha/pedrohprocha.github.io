@@ -5,9 +5,12 @@ hide_title: true
 permalink: /courses/
 ---
 
-Below is a list of courses I have taught across the Texas Tech University College of Media & Communication and the Federal University of Minas Gerais College of Philosophy and Human Sciences.
+Below is a list of courses I have taught across the Texas Tech University [College of Media & Communication](https://www.depts.ttu.edu/comc/) and the Federal University of Minas Gerais [College of Philosophy and Human Sciences](https://www.fafich.ufmg.br).
 
 # Texas Tech University (2023-present)
+
+### <span class="mark">☞</span> MCOM 3300 Theories of Media and Communication
+Theory-based exploration of the relationship between the mass media and society, such as aggression and television violence. This process involves iterating on ideas, exercising the cognitive muscles, and engaging with and critiquing media through a theoretical lens.
 
 ### <span class="mark">☞</span> PCOM 4373 Digital Media and Professional Communication Capstone
 The senior capstone for the Digital Media and Professional Communication major. Students produce an integrative professional project applying digital media skills and communication knowledge from across the curriculum, with a focus on career-ready portfolio work.
@@ -27,7 +30,7 @@ A core undergraduate course in oral communication for professional settings. Ass
 ### <span class="mark">☞</span> MCOM 2330 Media Literacy
 Examines how media messages are produced and interpreted across platforms. The course covers the media industry, digital media, and professional fields including journalism, advertising, and public relations. Satisfies TTU's core Language, Philosophy, and Culture requirement.
 
-# University of Minas Gerais (2020-2022)
+# Federal University of Minas Gerais (2020-2022)
 
 ### <span class="mark">☞</span> COM323 Journalism Capstone Projects *(Projetos C - Jornalismo)*
 A required upper-division course in which students critically analyze communication products using theoretical and empirical frameworks. Methodological experimentation is part of the work. Students engage advanced examples across film, television, radio, and print journalism.
