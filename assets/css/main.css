@@ -48,6 +48,43 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-Regular.woff2") format("woff2");
+    font-weight: 400; font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-Italic.woff2") format("woff2");
+    font-weight: 400; font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-Semibold.woff2") format("woff2");
+    font-weight: 600; font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-SemiboldItalic.woff2") format("woff2");
+    font-weight: 600; font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-Bold.woff2") format("woff2");
+    font-weight: 700; font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Arno Pro";
+    src: url("/assets/fonts/ArnoPro-BoldItalic.woff2") format("woff2");
+    font-weight: 700; font-style: italic;
+    font-display: swap;
+}
+
 /* ── Tokens ────────────────────────────────────────────────────────── */
 :root {
     --ink:   #1c1c1c;
@@ -61,8 +98,8 @@
     --green-dark: #1d4a35;
 
     --font-brand: "Diplomat", Georgia, "Times New Roman", serif;
-    --font-head:  "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --font-body:  "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-head:  "Arno Pro", Georgia, "Times New Roman", serif;
+    --font-body:  "Arno Pro", Georgia, "Times New Roman", serif;
 
     /* One page grid, shared by header, every page, and footer */
     --margin:  clamp(24px, 7vw, 112px);  /* outer left/right margin */
@@ -79,8 +116,8 @@ html { font-size: 16px; }
 
 body {
     font-family: var(--font-body);
-    font-size: 1.03rem;
-    line-height: 1.6;
+    font-size: 1.1875rem;
+    line-height: 1.55;
     background: var(--paper);
     color: var(--text);
 }
@@ -173,7 +210,7 @@ em { font-style: italic; }
 .page-title {
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: 1.875rem;
+    font-size: 2.125rem;
     letter-spacing: -0.015em;
     line-height: 1.15;
     color: var(--ink);
@@ -188,7 +225,7 @@ em { font-style: italic; }
     grid-row: span 2;   /* so a two-line heading doesn't push the text beside it apart */
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: 1.03rem;
+    font-size: 1.1875rem;
     line-height: 1.35;
     letter-spacing: -0.005em;
     color: var(--ink);
@@ -211,7 +248,7 @@ em { font-style: italic; }
 .site-main h2 {
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: 0.85rem;
+    font-size: 0.95rem;
     letter-spacing: 0.01em;
     color: var(--muted);
     margin: 28px 0 10px;
@@ -219,7 +256,7 @@ em { font-style: italic; }
 .site-main h3 {
     font-family: var(--font-head);
     font-weight: 600;
-    font-size: 1.03rem;
+    font-size: 1.1875rem;
     line-height: 1.4;
     color: var(--ink);
     margin: 28px 0 4px;
@@ -228,7 +265,7 @@ em { font-style: italic; }
     font-family: var(--font-head);
     font-weight: 400;
     font-style: italic;
-    font-size: 0.95rem;
+    font-size: 1.0625rem;
     color: var(--muted);
     margin: 18px 0 4px;
 }
@@ -264,7 +301,7 @@ em { font-style: italic; }
     justify-content: space-between;
     align-items: baseline;
     padding: 7px 0;
-    font-size: 0.8125rem;
+    font-size: 0.9375rem;
     color: var(--text);
     text-decoration: none;
 }
@@ -276,7 +313,7 @@ em { font-style: italic; }
 .intro-text h2 {
     font-family: var(--font-head);
     font-weight: 700;
-    font-size: 1.375rem;
+    font-size: 1.5625rem;
     letter-spacing: -0.02em;
     line-height: 1.15;
     color: var(--ink);
@@ -295,7 +332,7 @@ em { font-style: italic; }
 .pub-num { color: var(--green); }
 .pub-content { min-width: 0; }
 .pub-title { font-weight: 600; color: var(--ink); margin-bottom: 2px; }
-.pub-item .pub-meta { color: var(--muted); font-size: 0.9375rem; margin-bottom: 0; }
+.pub-item .pub-meta { color: var(--muted); font-size: 1.0625rem; margin-bottom: 0; }
 
 /* ── Blog ──────────────────────────────────────────────────────────── */
 .post-list { list-style: none; }
@@ -306,11 +343,11 @@ em { font-style: italic; }
     padding: 10px 0;
     border-bottom: 1px solid var(--rule);
 }
-.post-date { color: var(--muted); font-size: 0.875rem; white-space: nowrap; }
+.post-date { color: var(--muted); font-size: 1rem; white-space: nowrap; }
 .post-header { margin-bottom: 24px; }
 .post-header h1 {
     font-family: var(--font-head);
-    font-size: 1.375rem;
+    font-size: 1.5625rem;
     font-weight: 700;
     color: var(--ink);
 }
@@ -332,7 +369,7 @@ em { font-style: italic; }
     padding-bottom: 0.875rem;
     border-bottom: 1px solid var(--ink);
 }
-.cv-updated { font-size: 0.8125rem; color: var(--muted); }
+.cv-updated { font-size: 0.9375rem; color: var(--muted); }
 .cv-section { margin-bottom: 0.375rem; }
 .cv-entry {
     display: flex;
@@ -343,10 +380,10 @@ em { font-style: italic; }
     border-bottom: 1px solid var(--rule);
 }
 .cv-section .cv-entry:last-child { border-bottom: none; }
-.cv-left { font-size: 0.9375rem; line-height: 1.6; color: var(--text); flex: 1; }
-.cv-right { font-size: 0.8125rem; color: var(--muted); text-align: right; white-space: nowrap; flex-shrink: 0; }
+.cv-left { font-size: 1.0625rem; line-height: 1.6; color: var(--text); flex: 1; }
+.cv-right { font-size: 0.9375rem; color: var(--muted); text-align: right; white-space: nowrap; flex-shrink: 0; }
 .cv-courses { list-style: none; padding: 0 0 0.625rem; border-bottom: 1px solid var(--rule); }
-.cv-courses li { font-size: 0.9rem; line-height: 1.7; padding-left: 1rem; position: relative; }
+.cv-courses li { font-size: 1.03rem; line-height: 1.7; padding-left: 1rem; position: relative; }
 .cv-courses li::before { content: "–"; position: absolute; left: 0; color: var(--muted); }
 
 /* ── Color utilities (used in page content) ────────────────────────── */
@@ -362,7 +399,7 @@ em { font-style: italic; }
     padding-bottom: 40px;
     border-top: 1px solid var(--ink);
 }
-.site-footer p { font-size: 0.8125rem; color: var(--muted); text-align: center; margin-bottom: 0; }
+.site-footer p { font-size: 0.9375rem; color: var(--muted); text-align: center; margin-bottom: 0; }
 
 /* ── Responsive: below ~860px the margin column folds in ───────────── */
 @media (max-width: 860px) {
@@ -383,7 +420,7 @@ em { font-style: italic; }
     .site-main.hero > h2 { grid-row: auto; }
     .profile-links { width: 160px; margin: 0 0 28px; }
 
-    .page-title { font-size: 1.625rem; margin-bottom: 32px; }
+    .page-title { font-size: 1.875rem; margin-bottom: 32px; }
 
     .site-main > h1:not(.page-title),
     .site-main.hero > h2 { margin-top: 40px; }
