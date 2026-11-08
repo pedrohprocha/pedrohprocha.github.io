@@ -309,8 +309,14 @@ em { font-style: italic; }
 }
 .profile-icon { display: flex; color: var(--muted); }
 .profile-icon svg { width: 14px; height: 14px; }
-.profile-links a:hover,
-.profile-links a:hover .profile-icon { color: var(--green); }
+/* Each icon in its brand color; email uses the site's green */
+.profile-icon.icon-email        { color: var(--green); }
+.profile-icon.icon-linkedin     { color: #0A66C2; }
+.profile-icon.icon-scholar      { color: #4285F4; }
+.profile-icon.icon-orcid        { color: #A6CE39; }
+.profile-icon.icon-bluesky      { color: #0085FF; }
+.profile-icon.icon-researchgate { color: #00CCBB; }
+.profile-links a:hover { color: var(--green); }
 .intro-text > :last-child { margin-bottom: 0; }
 .intro-text h2 {
     font-family: var(--font-head);
