@@ -97,8 +97,8 @@
     --link:         #3366CC;   /* same color whether visited or not */
 
     /* Accent for ☞ markers and small details */
-    --green:      #2e6b4e;
-    --green-dark: #1d4a35;
+    --accent:      #B3261E;   /* rubric red */
+    --accent-dark: #7F1A15;
 
     --font-brand: "Diplomat", Georgia, "Times New Roman", serif;
     --font-head:  "Arno Pro", Georgia, "Times New Roman", serif;
@@ -276,7 +276,7 @@ em { font-style: italic; }
 .site-main li { line-height: 1.6; margin-bottom: 0.4rem; }
 
 /* ☛ markers */
-.mark { color: var(--green); margin-right: 3px; }
+.mark { color: var(--accent); margin-right: 3px; }
 
 /* ── Home: headshot in the margin column beside the greeting and bio ── */
 .intro {
@@ -312,8 +312,8 @@ em { font-style: italic; }
 }
 .profile-icon { display: flex; color: var(--muted); }
 .profile-icon svg { width: 14px; height: 14px; }
-/* Each icon in its brand color; email uses the site's green */
-.profile-icon.icon-email        { color: var(--green); }
+/* Each icon in its brand color; email uses the site's accent red */
+.profile-icon.icon-email        { color: var(--accent); }
 .profile-icon.icon-linkedin     { color: #0A66C2; }
 .profile-icon.icon-scholar      { color: #4285F4; }
 .profile-icon.icon-orcid        { color: #A6CE39; }
@@ -340,7 +340,7 @@ em { font-style: italic; }
     border-bottom: 1px solid var(--rule);
 }
 .pub-item:first-child { padding-top: 0; }
-.pub-num { color: var(--green); }
+.pub-num { color: var(--accent); }
 .pub-content { min-width: 0; }
 .pub-title { font-weight: 600; color: var(--ink); margin-bottom: 2px; }
 .pub-item .pub-meta { color: var(--muted); font-size: 1.0625rem; margin-bottom: 0; }
@@ -365,7 +365,7 @@ em { font-style: italic; }
 
 /* ── Blockquote ────────────────────────────────────────────────────── */
 .site-main blockquote {
-    border-left: 2px solid var(--green);
+    border-left: 2px solid var(--accent);
     margin: 1.75rem 0;
     padding: 0.25rem 0 0.25rem 1.25rem;
 }
@@ -399,10 +399,10 @@ em { font-style: italic; }
 
 /* ── Color utilities (used in page content) ────────────────────────── */
 .text-ink    { color: var(--ink); }
-.text-accent { color: var(--green); }
+.text-accent { color: var(--accent); }
 .text-muted  { color: var(--muted); }
 .text-dusk   { color: var(--muted); }
-.text-rust   { color: var(--green); }
+.text-rust   { color: var(--accent); }
 
 /* ── Footer ────────────────────────────────────────────────────────── */
 .site-footer {
