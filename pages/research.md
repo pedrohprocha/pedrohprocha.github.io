@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RESEARCH PROJECTS
+title: Research Projects
 hide_title: true
 permalink: /research/
 description: "Research by Pedro H. P. Rocha on political communication and celebrity politics."
